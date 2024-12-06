@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Enterprise-Migration-Page - Copy 4 of Portswigger website</title
+    ><meta
+      property="og:title"
+      content="Enterprise-Migration-Page - Copy 4 of Portswigger website"
+    /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link
+      rel="preload"
+      href="/mega-nav/images/mega-nav-portswigger-logo.svg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-main/ps-icons.woff?l1la2n"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-icons-small/ps-icons-small.woff?td2uot"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" href="/mega-nav/meganav.css" as="style" />
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script>
+      (function(window, document, dataLayerName, id) {
+      function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+      var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+      stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+      var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");
+      var qPString=qP.length>0?("?"+qP.join("&")):"";
+      document.write('<nonce-script src="https://ps.containers.piwik.pro/'+id+'.sync.js' + qPString + '" nonce="NIFdcp1UaO0OFJv1ewzs2Putqt1LcUl0"></' + 'nonce-script>');
+      })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');
+      });
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./enterprise-migration-page.css" rel="stylesheet" /><div
+        class="enterprise-migration-page-container10"
+        ><sub-menu-wrapper
+          class="sub-menu-wrapper"
+          rootclassname="sub-menuundefined"
+          ><!--SubMenu component--><div
+            class="sub-menu-container1 sub-menuroot-class-name1"
+            ><div class="sub-menu-container2"
+              ><div class="sub-menu-container3"
+                ><div class="sub-menu-container4"
+                  ><span class="sub-menu-text10 BodyLargeBold"
+                    ><fragment class="enterprise-migration-page-fragment18"
+                      ><span class="enterprise-migration-page-text18"
+                        >Product overview</span
+                      ></fragment
+                    ></span
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link1 BodyLarge"
+                    ><fragment class="enterprise-migration-page-fragment16"
+                      ><span class="enterprise-migration-page-text16"
+                        >Features</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link2 BodyLarge"
+                    ><fragment class="enterprise-migration-page-fragment14"
+                      ><span class="enterprise-migration-page-text14"
+                        >Burp Scanner</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link3 BodyLarge"
+                    ><fragment class="enterprise-migration-page-fragment13"
+                      ><span class="enterprise-migration-page-text13"
+                        >Roadmap</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link4 BodyLarge"
+                    ><fragment class="enterprise-migration-page-fragment12"
+                      ><span class="enterprise-migration-page-text12"
+                        >Request a Trial</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link5 BodyLarge"
+                    ><fragment class="enterprise-migration-page-fragment11"
+                      ><span class="enterprise-migration-page-text11"
+                        >Buy</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link6 BodyLarge"
+                    ><fragment class="enterprise-migration-page-fragment17"
+                      ><span class="enterprise-migration-page-text17"
+                        >Download</span
+                      ></fragment
+                    ></a
+                  ><div
+                    data-thq="thq-dropdown"
+                    class="sub-menu-thq-dropdown list-item"
+                    ><div
+                      data-thq="thq-dropdown-toggle"
+                      class="sub-menu-dropdown-toggle1"
+                      ><span class="sub-menu-text11"
+                        ><fragment class="enterprise-migration-page-fragment10"
+                          ><span class="enterprise-migration-page-text10"
+                            >Get certified</span
+                          ></fragment
+                        ></span
+                      ><div
+                        data-thq="thq-dropdown-arrow"
+                        class="sub-menu-dropdown-arrow"
+                        ><svg viewBox="0 0 1024 1024" class="sub-menu-icon1">
+                          <path
+                            d="M426 726v-428l214 214z"
+                          ></path></svg></div></div
+                    ><ul
+                      data-thq="thq-dropdown-list"
+                      class="sub-menu-dropdown-list"
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown1 list-item"
+                      ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown2 list-item"
+                      ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown3 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle2"
+                          ><span class="BodyLarge"
+                            ><fragment
+                              class="enterprise-migration-page-fragment21"
+                              ><span class="enterprise-migration-page-text21"
+                                >Get certified</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown4 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle3"
+                          ><span class="BodyLarge"
+                            ><fragment
+                              class="enterprise-migration-page-fragment22"
+                              ><span class="enterprise-migration-page-text22"
+                                >How to prepare</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown5 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle4"
+                          ><span class="BodyLarge"
+                            ><fragment
+                              class="enterprise-migration-page-fragment23"
+                              ><span class="enterprise-migration-page-text23"
+                                >How it works</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown6 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle5"
+                          ><span class="BodyLarge"
+                            ><fragment
+                              class="enterprise-migration-page-fragment20"
+                              ><span class="enterprise-migration-page-text20"
+                                >Practice exam</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown7 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle6"
+                          ><span class="BodyLarge"
+                            ><fragment
+                              class="enterprise-migration-page-fragment19"
+                              ><span class="enterprise-migration-page-text19"
+                                >what the exam involves</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown8 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle7"
+                          ><span class="BodyLarge"
+                            ><fragment
+                              class="enterprise-migration-page-fragment15"
+                              ><span class="enterprise-migration-page-text15"
+                                >FAQs</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ></ul
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></sub-menu-wrapper
+        ><div class="enterprise-migration-page-container11"
+          ><div class="enterprise-migration-page-container12"
+            ><div class="enterprise-migration-page-container13"
+              ><div class="enterprise-migration-page-container14"
+                ><div class="enterprise-migration-page-container15"
+                  ><h1 class="enterprise-migration-page-text24 Desktop-Heading3"
+                    >Burp Suite Enterprise Edition</h1
+                  ><h1 class="enterprise-migration-page-text25 Desktop-Display1"
+                    >Unburden your security team, empower your developers</h1
+                  ><span class="enterprise-migration-page-text26"
+                    ><span
+                      >Automated DAST scanning without limits. Built on the Burp
+                      technology your security teams already trust.</span
+                    ><br /><br /><span
+                      >Gain complete visibility of your web application's attack
+                      surface.</span
+                    ><br /><br /><span
+                      >Secure apps before they hit production.</span
+                    ><br /><br /><span
+                      >Free up your people to deliver more.</span
+                    ></span
+                  ></div
+                ><div class="enterprise-migration-page-container16"
+                  ><div
+                    src="7974de57-64f4-46b4-83c5-5f10a99ce378"
+                    class="enterprise-migration-page-container17"
+                    ><a
+                      href="portswigger.net"
+                      class="enterprise-migration-page-button1 button"
+                      ><span
+                        buttontext="TQ_TH6-S_dqix"
+                        class="enterprise-migration-page-text37"
+                        >TRY FOR FREE</span
+                      ></a
+                    ></div
+                  ></div
+                ></div
+              ><img
+                alt="image"
+                src="public/enterprise-product-demo-hero-600h.png"
+                class="enterprise-migration-page-image1" /></div></div></div
+        ><client-logo-x5-wrapper
+          class="client-logo-x5-wrapper"
+          rootclassname="client-logo-x5undefined"
+          ><!--ClientLogoX5 component--><div
+            class="client-logo-x5-container1 client-logo-x5root-class-name7"
+            ><div class="client-logo-x5-container2"
+              ><img
+                alt="image"
+                src="public/nba.svg"
+                class="client-logo-x5-image1" /><img
+                alt="Autotrader"
+                src="54228cb8-8312-4538-b32d-ae6c682acd86"
+                class="client-logo-x5-image2" /><img
+                alt="image"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                class="client-logo-x5-image3" /><img
+                alt="image"
+                src="fe7c9881-07ec-4a6d-9f2a-a97a24db082e"
+                class="client-logo-x5-image4" /><img
+                alt="NASA"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                class="client-logo-x5-image5" /></div></div></client-logo-x5-wrapper
+        ><sections-img-right-wrapper
+          class="sections-img-right-wrapper"
+          rootclassname="sections-img-rightundefined"
+          ><!--SectionsImgRight component--><div
+            class="sections-img-right-container1 sections-img-rightroot-class-name4"
+            ><div class="sections-img-right-container2"
+              ><h2 class="sections-img-right-text10 Desktop-Heading1"
+                ><fragment class="enterprise-migration-page-fragment30"
+                  ><span class="enterprise-migration-page-text44"
+                    >Find more vulnerabilities, faster</span
+                  ></fragment
+                ></h2
+              ><div class="sections-img-right-container3"
+                ><div class="sections-img-right-container4"
+                  ><div class="sections-img-right-container5"
+                    ><h3 class="Desktop-Heading3 sections-img-right-text11"
+                      ><fragment class="enterprise-migration-page-fragment27"
+                        ><span class="enterprise-migration-page-text41"
+                          >Scan the modern web</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-right-text12"
+                      ><fragment class="enterprise-migration-page-fragment24"
+                        ><span class="enterprise-migration-page-text38"
+                          >Smart automation works in concert with
+                          expert-designed manual tools, to save you time.
+                          Optimize your workflow, and do more of what you do
+                          best.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><div class="sections-img-right-container6"
+                    ><h3 class="Desktop-Heading3 sections-img-right-text13"
+                      ><fragment class="enterprise-migration-page-fragment29"
+                        ><span class="enterprise-migration-page-text43"
+                          >Heading</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-right-text14"
+                      ><fragment class="enterprise-migration-page-fragment25"
+                        ><span class="enterprise-migration-page-text39"
+                          >Burp Scanner can navigate and scan JavaScript-heavy
+                          single-page applications (SPAs), can scan APIs, and
+                          enables prerecording of complex authentication
+                          sequences.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><div class="sections-img-right-container7"
+                    ><h3 class="Desktop-Heading3 sections-img-right-text15"
+                      ><fragment class="enterprise-migration-page-fragment28"
+                        ><span class="enterprise-migration-page-text42"
+                          >Minimize false positives</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-right-text16"
+                      ><fragment class="enterprise-migration-page-fragment26"
+                        ><span class="enterprise-migration-page-text40"
+                          >Ultra reliable out-of-band application security
+                          testing (OAST) can find many otherwise invisible
+                          issues - including blind / asynchronous
+                          vulnerabilities.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><quaternary-link-wrapper
+                    class="quaternary-link-wrapper"
+                    rootclassname="quaternary-linkundefined"
+                    ><!--QuaternaryLink component--><div
+                      class="quaternary-link-container quaternary-linkroot-class-name12"
+                      ><a
+                        href="https://portswigger.net/burp/enterprise/features"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="quaternary-link-link"
+                        ><h6 class="quaternary-link-text"
+                          ><span>This is a quaternary link</span></h6
+                        ></a
+                      ><img
+                        alt="ChevronRightI2354"
+                        src="public/external/chevronrighti2354-ea9k.svg"
+                        class="quaternary-link-chevron-right" /></div></quaternary-link-wrapper></div
+                ><img
+                  alt="image"
+                  src="public/bsee-headers.svg"
+                  class="sections-img-right-image" /></div></div></div></sections-img-right-wrapper
+        ><div class="enterprise-migration-page-container18"
+          ><div class="enterprise-migration-page-container19"
+            ><h2 class="enterprise-migration-page-text45 Desktop-Heading1"
+              >Integrate security with development</h2
+            ><div class="enterprise-migration-page-container20"
+              ><img
+                alt="image"
+                src="d74ff174-e41a-4d62-8a71-387f968dc03b"
+                class="enterprise-migration-page-image2"
+              /><div class="enterprise-migration-page-container21"
+                ><div class="enterprise-migration-page-container22"
+                  ><h3 class="Desktop-Heading4 enterprise-migration-page-text46"
+                    >Bake security into software development processes</h3
+                  ><span class="BodyLarge enterprise-migration-page-text47"
+                    >A wide range of integrations (e.g. CI/CD, issue tracking
+                    platforms, and a rich GraphQL API) mean you can bake
+                    security into your software development.</span
+                  ></div
+                ><div class="enterprise-migration-page-container23"
+                  ><h3 class="Desktop-Heading4 enterprise-migration-page-text48"
+                    >Security technology, accessible for all</h3
+                  ><span class="enterprise-migration-page-text49"
+                    >Get fast, easily-digested feedback on vulnerabilities,
+                    tailored to you. Use role-based access control (RBAC) and
+                    single sign-on (SSO) to manage teams.</span
+                  ></div
+                ><div class="enterprise-migration-page-container24"
+                  ><h3 class="enterprise-migration-page-text50"
+                    >Join forces to fix vulnerabilities</h3
+                  ><span class="enterprise-migration-page-text51"
+                    >Integrate with Jira, GitLab, or Trello, and enable
+                    developers to collaborate with AppSec teams to remediate
+                    critical issues.</span
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div class="enterprise-migration-page-container25"
+          ><div class="enterprise-migration-page-container26"
+            ><h2 class="enterprise-migration-page-text52 Desktop-Heading1"
+              >Free time for AppSec to do more</h2
+            ><div class="enterprise-migration-page-container27"
+              ><div class="enterprise-migration-page-container28"
+                ><div class="enterprise-migration-page-container29"
+                  ><span class="BodyLarge enterprise-migration-page-text53"
+                    >Text</span
+                  ></div
+                ><div class="enterprise-migration-page-container30"
+                  ><h3
+                    class="Desktop-Heading4 Desktop-Heading3 enterprise-migration-page-text54"
+                    >Heading</h3
+                  ><span class="BodyLarge enterprise-migration-page-text55"
+                    >Text</span
+                  ></div
+                ><div class="enterprise-migration-page-container31"
+                  ><h3
+                    class="Desktop-Heading4 Desktop-Heading3 enterprise-migration-page-text56"
+                    >Heading</h3
+                  ><span class="BodyLarge enterprise-migration-page-text57"
+                    >Text</span
+                  ></div
+                ></div
+              ><img
+                alt="image"
+                src="d74ff174-e41a-4d62-8a71-387f968dc03b"
+                class="enterprise-migration-page-image3" /></div></div></div
+        ><quotation-small-light-mode-wrapper
+          class="quotation-small-light-mode-wrapper"
+          rootclassname="quotation-small-light-modeundefined"
+          ><!--QuotationSmallLightMode component--><div
+            class="quotation-small-light-mode-container quotation-small-light-moderoot-class-name7"
+            ><div class="quotation-small-light-mode-frame5519"
+              ><h1 class="quotation-small-light-mode-text1"
+                ><span
+                  >"Burp Suite Enterprise Edition frees our AppSec team to spend
+                  their time where it's most valuable."</span
+                ></h1
+              ><span
+                class="quotation-small-light-mode-text2 HeadingHeading5Light"
+                ><span>Source: @AlicornSkyler - Twitter</span></span
+              ></div
+            ></div
+          ></quotation-small-light-mode-wrapper
+        ><div class="enterprise-migration-page-container32"
+          ><div class="enterprise-migration-page-container33"
+            ><div class="enterprise-migration-page-container34"
+              ><h1 class="Desktop-Heading1 enterprise-migration-page-text58"
+                >Try for free</h1
+              ><h1 class="Desktop-Heading1 enterprise-migration-page-text59"
+                >Begin your fully-featured trial of Burp Suite Enterprise
+                Edition</h1
+              ><span class="enterprise-migration-page-text60 BodyLarge"
+                >Teasadsdad fsdfsfxt</span
+              ><div class="enterprise-migration-page-container35"
+                ><a
+                  href="https://www.teleporthq.io"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="enterprise-migration-page-button2 button"
+                  ><span class="enterprise-migration-page-text61"
+                    >TRY FOR FREE</span
+                  ><img
+                    id=""
+                    alt="ChevronRightI2321"
+                    src="public/external/chevronrighti2321-9hoy.svg"
+                    class="enterprise-migration-page-chevron-right" /></a></div></div></div></div></div
+    ></div>
+    <script>
+      (function(window, document, dataLayerName, id) {
+          window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});
+          var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+          function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+          var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+          stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+          var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),tags.nonce="@Html.Raw(Context.GetNonce())",isStgDebug&&qP.push("stg_debug");
+          var qPString=qP.length>0?("?"+qP.join("&")):"";
+          tags.async=!0,tags.src="https://ps.containers.piwik.pro/"+id+".js"+qPString,
+          scripts.parentNode.insertBefore(tags,scripts);
+          !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){
+          var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+          })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');</script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

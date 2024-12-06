@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Simple-Page-migration - Copy 4 of Portswigger website</title
+    ><meta
+      property="og:title"
+      content="Simple-Page-migration - Copy 4 of Portswigger website"
+    /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link
+      rel="preload"
+      href="/mega-nav/images/mega-nav-portswigger-logo.svg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-main/ps-icons.woff?l1la2n"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-icons-small/ps-icons-small.woff?td2uot"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" href="/mega-nav/meganav.css" as="style" />
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script>
+      (function(window, document, dataLayerName, id) {
+      function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+      var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+      stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+      var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");
+      var qPString=qP.length>0?("?"+qP.join("&")):"";
+      document.write('<nonce-script src="https://ps.containers.piwik.pro/'+id+'.sync.js' + qPString + '" nonce="NIFdcp1UaO0OFJv1ewzs2Putqt1LcUl0"></' + 'nonce-script>');
+      })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');
+      });
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./simple-page-migration.css" rel="stylesheet" /><div
+        class="simple-page-migration-container"
+        ><sub-menu-wrapper
+          class="sub-menu-wrapper"
+          rootclassname="sub-menuundefined"
+          ><!--SubMenu component--><div
+            class="sub-menu-container1 sub-menuroot-class-name"
+            ><div class="sub-menu-container2"
+              ><div class="sub-menu-container3"
+                ><div class="sub-menu-container4"
+                  ><span class="sub-menu-text10 BodyLargeBold"
+                    ><fragment class="simple-page-migration-fragment18"
+                      ><span class="simple-page-migration-text18"
+                        >Product overview</span
+                      ></fragment
+                    ></span
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link1 BodyLarge"
+                    ><fragment class="simple-page-migration-fragment16"
+                      ><span class="simple-page-migration-text16"
+                        >Features</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link2 BodyLarge"
+                    ><fragment class="simple-page-migration-fragment14"
+                      ><span class="simple-page-migration-text14"
+                        >Burp Scanner</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link3 BodyLarge"
+                    ><fragment class="simple-page-migration-fragment13"
+                      ><span class="simple-page-migration-text13"
+                        >Roadmap</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link4 BodyLarge"
+                    ><fragment class="simple-page-migration-fragment12"
+                      ><span class="simple-page-migration-text12"
+                        >Request a Trial</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link5 BodyLarge"
+                    ><fragment class="simple-page-migration-fragment11"
+                      ><span class="simple-page-migration-text11"
+                        >Buy</span
+                      ></fragment
+                    ></a
+                  ><a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="sub-menu-link6 BodyLarge"
+                    ><fragment class="simple-page-migration-fragment17"
+                      ><span class="simple-page-migration-text17"
+                        >Download</span
+                      ></fragment
+                    ></a
+                  ><div
+                    data-thq="thq-dropdown"
+                    class="sub-menu-thq-dropdown list-item"
+                    ><div
+                      data-thq="thq-dropdown-toggle"
+                      class="sub-menu-dropdown-toggle1"
+                      ><span class="sub-menu-text11"
+                        ><fragment class="simple-page-migration-fragment10"
+                          ><span class="simple-page-migration-text10"
+                            >Get certified</span
+                          ></fragment
+                        ></span
+                      ><div
+                        data-thq="thq-dropdown-arrow"
+                        class="sub-menu-dropdown-arrow"
+                        ><svg viewBox="0 0 1024 1024" class="sub-menu-icon1">
+                          <path
+                            d="M426 726v-428l214 214z"
+                          ></path></svg></div></div
+                    ><ul
+                      data-thq="thq-dropdown-list"
+                      class="sub-menu-dropdown-list"
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown1 list-item"
+                      ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown2 list-item"
+                      ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown3 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle2"
+                          ><span class="BodyLarge"
+                            ><fragment class="simple-page-migration-fragment21"
+                              ><span class="simple-page-migration-text21"
+                                >Get certified</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown4 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle3"
+                          ><span class="BodyLarge"
+                            ><fragment class="simple-page-migration-fragment22"
+                              ><span class="simple-page-migration-text22"
+                                >How to prepare</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown5 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle4"
+                          ><span class="BodyLarge"
+                            ><fragment class="simple-page-migration-fragment23"
+                              ><span class="simple-page-migration-text23"
+                                >How it works</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown6 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle5"
+                          ><span class="BodyLarge"
+                            ><fragment class="simple-page-migration-fragment20"
+                              ><span class="simple-page-migration-text20"
+                                >Practice exam</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown7 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle6"
+                          ><span class="BodyLarge"
+                            ><fragment class="simple-page-migration-fragment19"
+                              ><span class="simple-page-migration-text19"
+                                >what the exam involves</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ><li
+                        data-thq="thq-dropdown"
+                        class="sub-menu-dropdown8 list-item"
+                        ><div
+                          data-thq="thq-dropdown-toggle"
+                          class="sub-menu-dropdown-toggle7"
+                          ><span class="BodyLarge"
+                            ><fragment class="simple-page-migration-fragment15"
+                              ><span class="simple-page-migration-text15"
+                                >FAQs</span
+                              ></fragment
+                            ></span
+                          ></div
+                        ></li
+                      ></ul
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></sub-menu-wrapper
+        ><client-logo-x5-wrapper
+          class="client-logo-x5-wrapper"
+          rootclassname="client-logo-x5undefined"
+          ><!--ClientLogoX5 component--><div
+            class="client-logo-x5-container1 client-logo-x5root-class-name6"
+            ><div class="client-logo-x5-container2"
+              ><img
+                alt="image"
+                src="public/nba.svg"
+                class="client-logo-x5-image1" /><img
+                alt="Autotrader"
+                src="54228cb8-8312-4538-b32d-ae6c682acd86"
+                class="client-logo-x5-image2" /><img
+                alt="image"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                class="client-logo-x5-image3" /><img
+                alt="image"
+                src="fe7c9881-07ec-4a6d-9f2a-a97a24db082e"
+                class="client-logo-x5-image4" /><img
+                alt="NASA"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                class="client-logo-x5-image5" /></div></div></client-logo-x5-wrapper
+        ><sections-img-right-wrapper
+          class="sections-img-right-wrapper"
+          rootclassname="sections-img-rightundefined"
+          ><!--SectionsImgRight component--><div
+            class="sections-img-right-container1 sections-img-rightroot-class-name2"
+            ><div class="sections-img-right-container2"
+              ><h2 class="sections-img-right-text10 Desktop-Heading1"
+                ><fragment class="simple-page-migration-fragment30"
+                  ><span class="simple-page-migration-text30"
+                    >Find more vulnerabilities, faster</span
+                  ></fragment
+                ></h2
+              ><div class="sections-img-right-container3"
+                ><div class="sections-img-right-container4"
+                  ><div class="sections-img-right-container5"
+                    ><h3 class="Desktop-Heading3 sections-img-right-text11"
+                      ><fragment class="simple-page-migration-fragment27"
+                        ><span class="simple-page-migration-text27"
+                          >Automate and save time</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-right-text12"
+                      ><fragment class="simple-page-migration-fragment24"
+                        ><span class="simple-page-migration-text24"
+                          >Smart automation works in concert with
+                          expert-designed manual tools, to save you time.
+                          Optimize your workflow, and do more of what you do
+                          best.
+                        </span></fragment
+                      ></span
+                    ></div
+                  ><div class="sections-img-right-container6"
+                    ><h3 class="Desktop-Heading3 sections-img-right-text13"
+                      ><fragment class="simple-page-migration-fragment29"
+                        ><span class="simple-page-migration-text29"
+                          >Scan the modern web</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-right-text14"
+                      ><fragment class="simple-page-migration-fragment25"
+                        ><span class="simple-page-migration-text25"
+                          >Burp Scanner can navigate and scan JavaScript-heavy
+                          single-page applications (SPAs), can scan APIs, and
+                          enables prerecording of complex authentication
+                          sequences.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><div class="sections-img-right-container7"
+                    ><h3 class="Desktop-Heading3 sections-img-right-text15"
+                      ><fragment class="simple-page-migration-fragment28"
+                        ><span class="simple-page-migration-text28"
+                          >Minimize false positives</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-right-text16"
+                      ><fragment class="simple-page-migration-fragment26"
+                        ><span class="simple-page-migration-text26"
+                          >Ultra reliable out-of-band application security
+                          testing (OAST) can find many otherwise invisible
+                          issues - including blind / asynchronous
+                          vulnerabilities.</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><quaternary-link-wrapper
+                    class="quaternary-link-wrapper"
+                    rootclassname="quaternary-linkundefined"
+                    ><!--QuaternaryLink component--><div
+                      class="quaternary-link-container quaternary-linkroot-class-name12"
+                      ><a
+                        href="https://portswigger.net/burp/enterprise/features"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="quaternary-link-link"
+                        ><h6 class="quaternary-link-text"
+                          ><span>This is a quaternary link</span></h6
+                        ></a
+                      ><img
+                        alt="ChevronRightI2354"
+                        src="public/external/chevronrighti2354-ea9k.svg"
+                        class="quaternary-link-chevron-right" /></div></quaternary-link-wrapper></div
+                ><img
+                  alt="image"
+                  src="public/bsee-headers.svg"
+                  class="sections-img-right-image" /></div></div></div></sections-img-right-wrapper
+        ><sections-img-left-wrapper
+          class="sections-img-left-wrapper"
+          rootclassname="sections-img-leftundefined"
+          ><!--SectionsImgLeft component--><div
+            class="sections-img-left-container1 sections-img-leftroot-class-name1"
+            ><div class="sections-img-left-container2"
+              ><h2 class="Desktop-Heading1 sections-img-left-text10"
+                ><fragment class="simple-page-migration-fragment37"
+                  ><span class="simple-page-migration-text37"
+                    >Find out why 97% of users recommend Burp Suite Pro</span
+                  ></fragment
+                ></h2
+              ><div class="sections-img-left-container3"
+                ><img
+                  alt="image"
+                  src="public/burp-suite-dashboard-screenshots-1400w.png"
+                  class="sections-img-left-image" /><div
+                  class="sections-img-left-container4"
+                  ><div class="sections-img-left-container5"
+                    ><h3 class="Desktop-Heading3 sections-img-left-text11"
+                      ><fragment class="simple-page-migration-fragment34"
+                        ><span class="simple-page-migration-text34"
+                          >Heading</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-left-text12"
+                      ><fragment class="simple-page-migration-fragment31"
+                        ><span class="simple-page-migration-text31"
+                          >Text</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><div class="sections-img-left-container6"
+                    ><h3 class="Desktop-Heading3 sections-img-left-text13"
+                      ><fragment class="simple-page-migration-fragment35"
+                        ><span class="simple-page-migration-text35"
+                          >Heading</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-left-text14"
+                      ><fragment class="simple-page-migration-fragment32"
+                        ><span class="simple-page-migration-text32"
+                          >Text</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><div class="sections-img-left-container7"
+                    ><h3 class="Desktop-Heading3 sections-img-left-text15"
+                      ><fragment class="simple-page-migration-fragment36"
+                        ><span class="simple-page-migration-text36"
+                          >Heading</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-left-text16"
+                      ><fragment class="simple-page-migration-fragment33"
+                        ><span class="simple-page-migration-text33"
+                          >Text</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><quaternary-link-wrapper-ha9a
+                    class="quaternary-link-wrapper-ha9a"
+                    rootclassname="quaternary-linkundefined"
+                    ><!--QuaternaryLink component--><div
+                      class="quaternary-link-container1 quaternary-linkroot-class-name13"
+                      ><a
+                        href="https://portswigger.net/burp/enterprise/features"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="quaternary-link-link1"
+                        ><h6 class="quaternary-link-text1"
+                          ><span>This is a quaternary link</span></h6
+                        ></a
+                      ><img
+                        alt="ChevronRightI2354"
+                        src="public/external/chevronrighti2354-ea9k.svg"
+                        class="quaternary-link-chevron-right1" /></div></quaternary-link-wrapper-ha9a></div></div></div></div></sections-img-left-wrapper
+        ><sections-img-right-wrapper-qfku
+          class="sections-img-right-wrapper-qfku"
+          rootclassname="sections-img-rightundefined"
+          ><!--SectionsImgRight component--><div
+            class="sections-img-right-container8 sections-img-rightroot-class-name3"
+            ><div class="sections-img-right-container9"
+              ><h2 class="sections-img-right-text17 Desktop-Heading1"
+                ><fragment class="simple-page-migration-fragment44"
+                  ><span class="simple-page-migration-text44"
+                    >Find out why 97% of users recommend Burp Suite Pro</span
+                  ></fragment
+                ></h2
+              ><div class="sections-img-right-container10"
+                ><div class="sections-img-right-container11"
+                  ><div class="sections-img-right-container12"
+                    ><h3 class="Desktop-Heading3 sections-img-right-text18"
+                      ><fragment class="simple-page-migration-fragment41"
+                        ><span class="simple-page-migration-text41"
+                          >Heading</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-right-text19"
+                      ><fragment class="simple-page-migration-fragment38"
+                        ><span class="simple-page-migration-text38"
+                          >Text</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><div class="sections-img-right-container13"
+                    ><h3 class="Desktop-Heading3 sections-img-right-text20"
+                      ><fragment class="simple-page-migration-fragment43"
+                        ><span class="simple-page-migration-text43"
+                          >Heading</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-right-text21"
+                      ><fragment class="simple-page-migration-fragment39"
+                        ><span class="simple-page-migration-text39"
+                          >Text</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><div class="sections-img-right-container14"
+                    ><h3 class="Desktop-Heading3 sections-img-right-text22"
+                      ><fragment class="simple-page-migration-fragment42"
+                        ><span class="simple-page-migration-text42"
+                          >Heading</span
+                        ></fragment
+                      ></h3
+                    ><span class="BodyLarge sections-img-right-text23"
+                      ><fragment class="simple-page-migration-fragment40"
+                        ><span class="simple-page-migration-text40"
+                          >Text</span
+                        ></fragment
+                      ></span
+                    ></div
+                  ><quaternary-link-wrapper-n2cw
+                    class="quaternary-link-wrapper-n2cw"
+                    rootclassname="quaternary-linkundefined"
+                    ><!--QuaternaryLink component--><div
+                      class="quaternary-link-container2 quaternary-linkroot-class-name12"
+                      ><a
+                        href="https://portswigger.net/burp/enterprise/features"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="quaternary-link-link2"
+                        ><h6 class="quaternary-link-text2"
+                          ><span>This is a quaternary link</span></h6
+                        ></a
+                      ><img
+                        alt="ChevronRightI2354"
+                        src="public/external/chevronrighti2354-ea9k.svg"
+                        class="quaternary-link-chevron-right2" /></div></quaternary-link-wrapper-n2cw></div
+                ><img
+                  alt="image"
+                  src="public/burp-suite-dashboard-screenshots-1400w.png"
+                  class="sections-img-right-image1" /></div></div></div></sections-img-right-wrapper-qfku
+        ><quotation-small-light-mode-wrapper
+          class="quotation-small-light-mode-wrapper"
+          rootclassname="quotation-small-light-modeundefined"
+          ><!--QuotationSmallLightMode component--><div
+            class="quotation-small-light-mode-container quotation-small-light-moderoot-class-name6"
+            ><div class="quotation-small-light-mode-frame5519"
+              ><h1 class="quotation-small-light-mode-text1"
+                ><span
+                  >“Is there anything better than Burp Suite Professional by
+                  @PortSwigger? I have some tools like it but I have yet to find
+                  anything as good”</span
+                ></h1
+              ><span
+                class="quotation-small-light-mode-text2 HeadingHeading5Light"
+                ><span>Source: @AlicornSkyler - Twitter</span></span
+              ></div
+            ></div
+          ></quotation-small-light-mode-wrapper
+        ><page-footer-cta-wrapper
+          class="page-footer-cta-wrapper"
+          rootclassname="page-footer-ct-aundefined"
+          ><!--PageFooterCTA component--><div
+            class="page-footer-cta-container1 page-footer-ct-aroot-class-name2"
+            ><div class="page-footer-cta-container2"
+              ><div class="page-footer-cta-container3"
+                ><h2 class="page-footer-cta-text1 Desktop-Heading1"
+                  ><fragment class="simple-page-migration-fragment45"
+                    ><span class="simple-page-migration-text45"
+                      >A call to action to finish the page</span
+                    ></fragment
+                  ></h2
+                ><span class="page-footer-cta-text2 BodyLarge"
+                  ><span>Teasadsdad fsdfsfxt</span></span
+                ><div class="page-footer-cta-container4"
+                  ><a
+                    href="https://www.teleporthq.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="page-footer-cta-button button"
+                    ><span class="page-footer-cta-text3"
+                      ><fragment class="simple-page-migration-fragment46"
+                        ><span class="simple-page-migration-text46"
+                          >This is a primary button</span
+                        ></fragment
+                      ></span
+                    ><img
+                      id=""
+                      alt="ChevronRightI2321"
+                      src="public/external/chevronrighti2321-9hoy.svg"
+                      class="page-footer-cta-chevron-right" /></a></div></div></div></div></page-footer-cta-wrapper></div
+    ></div>
+    <script>
+      (function(window, document, dataLayerName, id) {
+          window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});
+          var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+          function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+          var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+          stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+          var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),tags.nonce="@Html.Raw(Context.GetNonce())",isStgDebug&&qP.push("stg_debug");
+          var qPString=qP.length>0?("?"+qP.join("&")):"";
+          tags.async=!0,tags.src="https://ps.containers.piwik.pro/"+id+".js"+qPString,
+          scripts.parentNode.insertBefore(tags,scripts);
+          !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){
+          var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+          })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');</script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

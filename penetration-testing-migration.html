@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Penetration-Testing-Migration - Copy 4 of Portswigger website</title
+    ><meta
+      property="og:title"
+      content="Penetration-Testing-Migration - Copy 4 of Portswigger website"
+    /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link
+      rel="preload"
+      href="/mega-nav/images/mega-nav-portswigger-logo.svg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-main/ps-icons.woff?l1la2n"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-icons-small/ps-icons-small.woff?td2uot"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" href="/mega-nav/meganav.css" as="style" />
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script>
+      (function(window, document, dataLayerName, id) {
+      function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+      var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+      stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+      var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");
+      var qPString=qP.length>0?("?"+qP.join("&")):"";
+      document.write('<nonce-script src="https://ps.containers.piwik.pro/'+id+'.sync.js' + qPString + '" nonce="NIFdcp1UaO0OFJv1ewzs2Putqt1LcUl0"></' + 'nonce-script>');
+      })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');
+      });
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./penetration-testing-migration.css" rel="stylesheet" /><div
+        class="penetration-testing-migration-container10"
+        ><div class="penetration-testing-migration-container11"
+          ><div class="penetration-testing-migration-container12"
+            ><div class="penetration-testing-migration-container13"
+              ><div class="penetration-testing-migration-container14"
+                ><a
+                  href="https://portswigger.net/solutions"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="penetration-testing-migration-link10 BodyLarge"
+                  >Solutions overview</a
+                ><span
+                  class="penetration-testing-migration-text10 BodyLargeBold"
+                  >Penetration testing</span
+                ><a
+                  href="https://portswigger.net/solutions/bug-bounty-hunting"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="penetration-testing-migration-link11 BodyLarge"
+                  >Bug bounty hunting</a
+                ><a
+                  href="https://portswigger.net/solutions/devsecops"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="penetration-testing-migration-link12 BodyLarge"
+                  >DevSecOps</a
+                ><a
+                  href="https://portswigger.net/solutions/automated-security-testing"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="penetration-testing-migration-link13 BodyLarge"
+                  >Automated security testing</a
+                ><a
+                  href="https://portswigger.net/solutions/compliance"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="penetration-testing-migration-link14 BodyLarge"
+                  >Compliance</a
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div class="penetration-testing-migration-container15"
+          ><div class="penetration-testing-migration-container16"
+            ><div class="penetration-testing-migration-container17"
+              ><div class="penetration-testing-migration-container18"
+                ><div class="penetration-testing-migration-container19"
+                  ><h1
+                    class="penetration-testing-migration-text11 Desktop-Display1"
+                    >Penetration testing software from PortSwigger</h1
+                  ><span
+                    class="penetration-testing-migration-text12 Desktop-Heading4Light"
+                    >Revolutionize your workflow - with the leading penetration
+                    testing software.</span
+                  ></div
+                ><div class="penetration-testing-migration-container20"
+                  ><div
+                    src="7974de57-64f4-46b4-83c5-5f10a99ce378"
+                    class="penetration-testing-migration-container21"
+                    ><a
+                      href="portswigger.net"
+                      class="penetration-testing-migration-button1 button"
+                      ><span
+                        buttontext="TQ_TH6-S_dqix"
+                        class="penetration-testing-migration-text13"
+                        >Find out more</span
+                      ><img
+                        id=""
+                        alt="ChevronRightI2321"
+                        src="public/external/chevronright1151-d7ji.svg"
+                        class="penetration-testing-migration-chevron-right1" /></a></div></div></div></div></div></div
+        ><div class="penetration-testing-migration-container22"
+          ><div class="penetration-testing-migration-container23"
+            ><h1 class="penetration-testing-migration-text14 Desktop-Heading1"
+              >Find more vulnerabilities faster with software built by
+              pentesters, for pentesters&nbsp;</h1
+            ><span class="penetration-testing-migration-text15"
+              ><span
+                >As a pentester, you're always looking for ways to improve your
+                workflow. Through research and continual development,
+                PortSwigger delivers the most powerful toolkit on the market.
+                It's packed with features and extensions - with the world's
+                leading web vulnerability scanner at its core.</span
+              ><br /><br /><span
+                >Burp Suite Professional acts as a force multiplier for your
+                testing. Join the leading community of penetration testers using
+                Burp Suite to work smarter, not harder.</span
+              ></span
+            ></div
+          ></div
+        ><div class="penetration-testing-migration-frame55191"
+          ><h1 class="penetration-testing-migration-text20"
+            >“With Burp Suite Pro, I am able to much more efficiently perform
+            web and mobile application pen testing, having almost every feature
+            I need within one product, including automation with scanning,
+            Intruder, etc. that other tools don't provide as well.”</h1
+          ><span
+            class="penetration-testing-migration-text21 HeadingHeading5Light"
+            >Source: Tony DeLaGrange, Penetration Tester - TechValidate survey
+            of PortSwigger customers</span
+          ><div class="penetration-testing-migration-container24"
+            ><div
+              src="7974de57-64f4-46b4-83c5-5f10a99ce378"
+              class="penetration-testing-migration-container25"
+              ><a
+                href="https://portswigger.net/customers"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="penetration-testing-migration-button2 button"
+                ><span
+                  buttontext="TQ_TH6-S_dqix"
+                  class="penetration-testing-migration-text22"
+                  >See more customer stories</span
+                ><img
+                  id=""
+                  alt="ChevronRightI2321"
+                  src="public/external/chevronright1151-d7ji.svg"
+                  class="penetration-testing-migration-chevron-right2" /></a></div></div></div
+        ><div class="penetration-testing-migration-container26"
+          ><div class="penetration-testing-migration-container27"
+            ><div class="penetration-testing-migration-container28"
+              ><div class="penetration-testing-migration-container29"
+                ><div class="penetration-testing-migration-container30"
+                  ><h3 class="Desktop-Heading3"
+                    >Revolutionize your pentesting</h3
+                  ><span class="BodyLarge penetration-testing-migration-text24"
+                    ><span class="BodyLarge"
+                      >Make your work faster, easier, and more reliable. Harness
+                      15 years of product innovation and the pioneering work of </span
+                    ><a
+                      href="https://portswigger.net/research"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="penetration-testing-migration-link15"
+                      >PortSwigger Research</a
+                    ><span class="BodyLarge"
+                      >, when you use Burp Suite Professional.</span
+                    ></span
+                  ></div
+                ><div class="penetration-testing-migration-container31"
+                  ><h3 class="Desktop-Heading3">Propel your processes</h3
+                  ><span class="BodyLarge penetration-testing-migration-text28"
+                    >Improve and accelerate your testing workflows with 200+
+                    extensions, faster brute-forcing and fuzzing, and deeper
+                    manual testing.</span
+                  ></div
+                ><div class="penetration-testing-migration-container32"
+                  ><h3 class="Desktop-Heading3">Stay ahead of the game</h3
+                  ><span class="penetration-testing-migration-text30"
+                    ><span class="BodyLarge"
+                      >Develop your pentesting skills by using Burp Suite to
+                      test your abilities in the </span
+                    ><a
+                      href="https://portswigger.net/web-security"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="penetration-testing-migration-link16"
+                      >Web Security Academy</a
+                    ><span class="BodyLarge"
+                      >. Free learning materials from world-class experts.</span
+                    ></span
+                  ></div
+                ><h3 class="Desktop-Heading3">Work with the very best</h3
+                ><span class="BodyLarge penetration-testing-migration-text34"
+                  >Tap the collective knowledge of tens of thousands of Burp
+                  Suite users. Overcome challenges, find new vulnerabilities,
+                  and develop alongside the PortSwigger community.</span
+                ><div class="penetration-testing-migration-container33"
+                  ><a
+                    href="https://portswigger.net/burp/pro"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="penetration-testing-migration-link17"
+                    ><h6 class="penetration-testing-migration-text35 BodyLarge"
+                      >Find out more about Burp Suite</h6
+                    ></a
+                  ><img
+                    alt="ChevronRightI2354"
+                    src="public/external/chevronright1151-t4lc.svg"
+                    class="penetration-testing-migration-chevron-right3" /></div></div
+              ><div class="penetration-testing-migration-container34"
+                ><img
+                  alt="image"
+                  src="public/solutions-pentesting-tool-1400w.jpg"
+                  class="penetration-testing-migration-image"
+                /><span class="penetration-testing-migration-text36"
+                  >Use Burp to help you work towards achieving compliance with
+                  many requirements, such as PCI DSS, HIPAA, and GDPR.</span
+                ></div
+              ></div
+            ></div
+          ></div
+        ><h1 class="penetration-testing-migration-text37 Desktop-Heading1"
+          >PortSwigger software is trusted by over 16,000 organizations
+          worldwide</h1
+        ><client-logo-x5-wrapper
+          class="client-logo-x5-wrapper"
+          rootclassname="client-logo-x5undefined"
+          ><!--ClientLogoX5 component--><div
+            class="client-logo-x5-container1 client-logo-x5root-class-name10"
+            ><div class="client-logo-x5-container2"
+              ><img
+                alt="image"
+                src="public/nba.svg"
+                class="client-logo-x5-image1" /><img
+                alt="Autotrader"
+                src="54228cb8-8312-4538-b32d-ae6c682acd86"
+                class="client-logo-x5-image2" /><img
+                alt="image"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                class="client-logo-x5-image3" /><img
+                alt="image"
+                src="fe7c9881-07ec-4a6d-9f2a-a97a24db082e"
+                class="client-logo-x5-image4" /><img
+                alt="NASA"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                class="client-logo-x5-image5" /></div></div></client-logo-x5-wrapper
+        ><div class="penetration-testing-migration-frame55192"
+          ><h1 class="penetration-testing-migration-text38"
+            >“I've been using Burp Suite for over 10 years to expose hard to
+            find vulnerabilities in web applications for my clients. The
+            addition of the vulnerability scanner helps speed up the testing
+            process and provide a baseline level of analysis on all parts of the
+            web application, and allows me to focus efforts on the more
+            advanced, harder to find vulnerabilities.”</h1
+          ><span
+            class="penetration-testing-migration-text39 HeadingHeading5Light"
+            >Source: Trevor Stevado, Penetration Tester - TechValidate survey of
+            PortSwigger customers</span
+          ><div class="penetration-testing-migration-container35"
+            ><div
+              src="7974de57-64f4-46b4-83c5-5f10a99ce378"
+              class="penetration-testing-migration-container36"
+              ><a
+                href="https://portswigger.net/customers"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="penetration-testing-migration-button3 button"
+                ><span
+                  buttontext="TQ_TH6-S_dqix"
+                  class="penetration-testing-migration-text40"
+                  >See more customer stories</span
+                ><img
+                  id=""
+                  alt="ChevronRightI2321"
+                  src="public/external/chevronright1151-d7ji.svg"
+                  class="penetration-testing-migration-chevron-right4" /></a></div></div></div
+        ><div class="penetration-testing-migration-container37"
+          ><div class="penetration-testing-migration-container38"
+            ><div class="penetration-testing-migration-container39"
+              ><div class="penetration-testing-migration-frame55121"
+                ><h4 class="penetration-testing-migration-text41"
+                  >Top 10 pentesting tools and extensions in Burp Suite</h4
+                ><div class="penetration-testing-migration-container40"
+                  ><a
+                    href="https://www.teleporthq.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="penetration-testing-migration-link18"
+                    ><h6
+                      class="penetration-testing-migration-text42 BodyLargeBold"
+                      >This is a quaternary link</h6
+                    ></a
+                  ><img
+                    alt="ChevronRightI2354"
+                    src="public/external/chevronrighti2354-ea9k.svg"
+                    class="penetration-testing-migration-chevron-right5" /></div></div></div
+            ><div class="penetration-testing-migration-container41"
+              ><div class="penetration-testing-migration-frame55122"
+                ><h4 class="penetration-testing-migration-text43"
+                  >Automated penetration testing software</h4
+                ><div class="penetration-testing-migration-container42"
+                  ><a
+                    href="https://www.teleporthq.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="penetration-testing-migration-link19"
+                    ><h6
+                      class="penetration-testing-migration-text44 BodyLargeBold"
+                      >This is a quaternary link</h6
+                    ></a
+                  ><img
+                    alt="ChevronRightI2354"
+                    src="public/external/chevronrighti2354-ea9k.svg"
+                    class="penetration-testing-migration-chevron-right6" /></div></div></div
+            ><div class="penetration-testing-migration-container43"
+              ><div class="penetration-testing-migration-frame55123"
+                ><h4 class="penetration-testing-migration-text45"
+                  ><span>Ethical hacking tools in Burp Suite</span
+                  ><br /><br /></h4
+                ><div class="penetration-testing-migration-container44"
+                  ><a
+                    href="https://www.teleporthq.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="penetration-testing-migration-link20"
+                    ><h6
+                      class="penetration-testing-migration-text49 BodyLargeBold"
+                      >This is a quaternary link</h6
+                    ></a
+                  ><img
+                    alt="ChevronRightI2354"
+                    src="public/external/chevronrighti2354-ea9k.svg"
+                    class="penetration-testing-migration-chevron-right7" /></div></div></div></div></div
+        ><div class="penetration-testing-migration-container45"
+          ><div class="penetration-testing-migration-container46"
+            ><h1 class="Desktop-Heading1 penetration-testing-migration-text50"
+              >Make your workflow more efficient</h1
+            ><span class="penetration-testing-migration-text51 BodyLarge"
+              >The most widely-used pentesting software.</span
+            ><div class="penetration-testing-migration-container47"
+              ><a
+                href="https://portswigger.net/burp/pro"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="penetration-testing-migration-button4 button"
+                ><span class="penetration-testing-migration-text52"
+                  >Find out more</span
+                ><img
+                  id=""
+                  alt="ChevronRightI2321"
+                  src="public/external/chevronrighti2321-9hoy.svg"
+                  class="penetration-testing-migration-chevron-right8" /></a></div></div
+          ><div
+            class="penetration-testing-migration-container48"
+          ></div></div></div
+    ></div>
+    <script>
+      (function(window, document, dataLayerName, id) {
+          window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});
+          var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+          function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+          var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+          stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+          var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),tags.nonce="@Html.Raw(Context.GetNonce())",isStgDebug&&qP.push("stg_debug");
+          var qPString=qP.length>0?("?"+qP.join("&")):"";
+          tags.async=!0,tags.src="https://ps.containers.piwik.pro/"+id+".js"+qPString,
+          scripts.parentNode.insertBefore(tags,scripts);
+          !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){
+          var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+          })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');</script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

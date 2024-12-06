@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title
+      >Amp-campaign-page-template1-V3 - Copy 4 of Portswigger website</title
+    ><meta
+      property="og:title"
+      content="Amp-campaign-page-template1-V3 - Copy 4 of Portswigger website"
+    /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link
+      rel="preload"
+      href="/mega-nav/images/mega-nav-portswigger-logo.svg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-main/ps-icons.woff?l1la2n"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-icons-small/ps-icons-small.woff?td2uot"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" href="/mega-nav/meganav.css" as="style" />
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script>
+      (function(window, document, dataLayerName, id) {
+      function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+      var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+      stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+      var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");
+      var qPString=qP.length>0?("?"+qP.join("&")):"";
+      document.write('<nonce-script src="https://ps.containers.piwik.pro/'+id+'.sync.js' + qPString + '" nonce="NIFdcp1UaO0OFJv1ewzs2Putqt1LcUl0"></' + 'nonce-script>');
+      })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');
+      });
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./amp-campaign-page-template1-v3.css" rel="stylesheet" /><div
+        class="amp-campaign-page-template1v3-container10"
+        ><div class="amp-campaign-page-template1v3-container11"></div
+        ><div class="amp-campaign-page-template1v3-container12"
+          ><h1 class="amp-campaign-page-template1v3-text10"
+            ><span class="Desktop-Display1">A campaign </span
+            ><span class="amp-campaign-page-template1v3-text12"
+              >headline here</span
+            ><span class="Desktop-Display1"> with certain words </span
+            ><span class="amp-campaign-page-template1v3-text14"
+              >emphasised</span
+            ></h1
+          ><h1
+            class="amp-campaign-page-template1v3-text15 Desktop-Heading4Light"
+            >Always-on visibility of your web app and API attack surface,
+            allowing developers to secure apps before they hit production.</h1
+          ><primary-button-light-wrapper
+            class="primary-button-light-wrapper"
+            rootclassname="primary-button-lightundefined"
+            ><!--PrimaryButtonLight component--><div
+              src="7974de57-64f4-46b4-83c5-5f10a99ce378"
+              class="primary-button-light-container primary-button-lightroot-class-name18"
+              ><a
+                href="https://www.teleporthq.io"
+                class="primary-button-light-button button"
+                ><span
+                  buttontext="TQ_TH6-S_dqix"
+                  class="primary-button-light-text1 BodyLargeBold"
+                  ><fragment class="amp-campaign-page-template1v3-fragment10"
+                    ><span class="amp-campaign-page-template1v3-text16"
+                      >This is a primary button</span
+                    ></fragment
+                  ></span
+                ><img
+                  id=""
+                  alt="ChevronRightI2321"
+                  src="public/external/chevronrighti2321-9hoy.svg"
+                  class="primary-button-light-chevron-right" /></a></div></primary-button-light-wrapper></div
+        ><img
+          alt="Component15533"
+          src="public/external/component15533-2emj.svg"
+          class="amp-campaign-page-template1v3-component1" /><div
+          class="amp-campaign-page-template1v3-container13"
+          ><div class="amp-campaign-page-template1v3-container14"
+            ><h1 class="amp-campaign-page-template1v3-text17"
+              ><span class="amp-campaign-page-template1v3-text18"
+                >Highlight</span
+              ><span class="Desktop-Heading1">
+                discover key feature #1</span
+              ></h1
+            ><span
+              class="amp-campaign-page-template1v3-text20 HeadingHeading6Light"
+              >Perform recurring dynamic (DAST) scans across thousands of sites
+              and APIs.Intuitive dashboards help to identify trends over time.
+              Get scan reports by email, export to other tools, and produce
+              reports for individual compliance standards.</span
+            ></div
+          ><img
+            alt="image"
+            src="public/bsee-db-full.svg"
+            class="amp-campaign-page-template1v3-image1" /></div
+        ><div class="amp-campaign-page-template1v3-container15"
+          ><img
+            alt="image"
+            src="public/external/attackmodernweb.svg"
+            class="amp-campaign-page-template1v3-image2"
+          /><div class="amp-campaign-page-template1v3-container16"
+            ><h1 class="amp-campaign-page-template1v3-text21"
+              ><span class="amp-campaign-page-template1v3-text22"
+                >Highlight</span
+              ><span class="Desktop-Heading1">
+                discover key feature #2</span
+              ></h1
+            ><span
+              class="amp-campaign-page-template1v3-text24 HeadingHeading6Light"
+              >Perform recurring dynamic (DAST) scans across thousands of sites
+              and APIs.Intuitive dashboards help to identify trends over time.
+              Get scan reports by email, export to other tools, and produce
+              reports for individual compliance standards.</span
+            ></div
+          ></div
+        ><div class="amp-campaign-page-template1v3-container17"
+          ><div class="amp-campaign-page-template1v3-container18"
+            ><div class="amp-campaign-page-template1v3-container19"
+              ><h1 class="amp-campaign-page-template1v3-text25"
+                ><span class="amp-campaign-page-template1v3-text26"
+                  >Highlight</span
+                ><span class="Desktop-Heading1">
+                  discover key feature #3</span
+                ></h1
+              ><span
+                class="amp-campaign-page-template1v3-text28 HeadingHeading6Light"
+                >Perform recurring dynamic (DAST) scans across thousands of
+                sites and APIs.Intuitive dashboards help to identify trends over
+                time. Get scan reports by email, export to other tools, and
+                produce reports for individual compliance standards.</span
+              ></div
+            ></div
+          ><img
+            alt="image"
+            src="public/ram-placeholder-900h.png"
+            loading="lazy"
+            class="amp-campaign-page-template1v3-image3" /></div
+        ><quotation-large-dark-mode-wrapper
+          class="quotation-large-dark-mode-wrapper"
+          rootclassname="quotation-large-dark-modeundefined"
+          ><!--QuotationLargeDarkMode component--><div
+            class="quotation-large-dark-mode-container quotation-large-dark-moderoot-class-name1"
+            ><div class="quotation-large-dark-mode-frame5519"
+              ><h1 class="quotation-large-dark-mode-text1"
+                ><fragment class="amp-campaign-page-template1v3-fragment11"
+                  ><span class="amp-campaign-page-template1v3-text29"
+                    ><span
+                      >“Is there anything better than Burp Suite Professional by
+                      @PortSwigger? I have some tools like it but I have yet to
+                      find anything as good”</span
+                    ></span
+                  ></fragment
+                ></h1
+              ><span
+                class="quotation-large-dark-mode-text2 HeadingHeading5Light"
+                ><span>Source: @AlicornSkyler - Twitter</span></span
+              ></div
+            ></div
+          ></quotation-large-dark-mode-wrapper
+        ><img
+          alt="image"
+          src="public/jagged-edge-200h.png"
+          class="amp-campaign-page-template1v3-image4" /><stats-x2-wrapper
+          class="stats-x2-wrapper"
+          rootclassname="stats-x2undefined"
+          ><!--StatsX2 component--><div
+            class="stats-x2-container1 stats-x2root-class-name"
+            ><div class="stats-x2-container2"
+              ><h2 class="stats-x2-text10 Desktop-Heading1"
+                ><fragment class="amp-campaign-page-template1v3-fragment12"
+                  ><span class="amp-campaign-page-template1v3-text31"
+                    ><span class="Desktop-Heading1"
+                      >Burp Suite is trusted globally</span
+                    ><br /></span></fragment></h2
+              ><span class="stats-x2-text11 HeadingHeading6Light"
+                ><fragment class="stats-x2-fragment5"
+                  ><span class="stats-x2-text20"
+                    >Securing APIs remains one of the biggest challenges for
+                    AppSec teams.</span
+                  ></fragment
+                ></span
+              ><div class="stats-x2-container3"
+                ><div class="stats-x2-container4"
+                  ><h2 class="stats-x2-text12 Desktop-Display1"
+                    ><fragment class="stats-x2-fragment6"
+                      ><span class="stats-x2-text21">26</span></fragment
+                    ></h2
+                  ><span class="stats-x2-text13 HeadingHeading6Light"
+                    ><fragment class="stats-x2-fragment3"
+                      ><span class="stats-x2-text18"
+                        >APIs per application</span
+                      ></fragment
+                    ></span
+                  ></div
+                ><div class="stats-x2-container5"
+                  ><h2 class="stats-x2-text14 Desktop-Display1"
+                    ><fragment class="stats-x2-fragment4"
+                      ><span class="stats-x2-text19">&lt;50%</span></fragment
+                    ></h2
+                  ><span class="stats-x2-text15 HeadingHeading6Light"
+                    ><fragment class="amp-campaign-page-template1v3-fragment13"
+                      ><span class="amp-campaign-page-template1v3-text34"
+                        >Metric</span
+                      ></fragment
+                    ></span
+                  ></div
+                ><div
+                  class="stats-x2-container6"
+                ></div></div></div></div></stats-x2-wrapper
+        ><div class="amp-campaign-page-template1v3-container20"
+          ><h1>Heading</h1
+          ><div class="amp-campaign-page-template1v3-container21"
+            ><card-portrait-wrapper
+              class="card-portrait-wrapper"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container1 card-portraitroot-class-name22"
+                ><div class="card-portrait-frame5512"
+                  ><img
+                    alt="image"
+                    src="public/burp-suite-scanner1-300h.jpg"
+                    class="card-portrait-image" /><h4
+                    class="card-portrait-text1 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template1v3-fragment14"
+                      ><span class="amp-campaign-page-template1v3-text36"
+                        ><span>Video tutorials</span></span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text2 BodyLarge"
+                    ><span
+                      >Learn the basics of Burp Suite Professional - with our
+                      series of beginner video tutorials.</span
+                    ></span
+                  ><div class="card-portrait-container2"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link"
+                      ><h6 class="card-portrait-text3 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right" /></div></div></div></card-portrait-wrapper
+            ><card-portrait-wrapper-o2ey
+              class="card-portrait-wrapper-o2ey"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container3 card-portraitroot-class-name24"
+                ><div class="card-portrait-frame55121"
+                  ><img
+                    alt="image"
+                    src="public/burp-suite-scanner1-300h.jpg"
+                    class="card-portrait-image1" /><h4
+                    class="card-portrait-text4 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template1v3-fragment15"
+                      ><span class="amp-campaign-page-template1v3-text38"
+                        ><span>Video tutorials</span></span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text5 BodyLarge"
+                    ><span
+                      >Learn the basics of Burp Suite Professional - with our
+                      series of beginner video tutorials.</span
+                    ></span
+                  ><div class="card-portrait-container4"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link1"
+                      ><h6 class="card-portrait-text6 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right1" /></div></div></div></card-portrait-wrapper-o2ey
+            ><card-portrait-wrapper-4ah2
+              class="card-portrait-wrapper-4ah2"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container5 card-portraitroot-class-name23"
+                ><div class="card-portrait-frame55122"
+                  ><img
+                    alt="image"
+                    src="public/burp-suite-scanner1-300h.jpg"
+                    class="card-portrait-image2" /><h4
+                    class="card-portrait-text7 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template1v3-fragment16"
+                      ><span class="amp-campaign-page-template1v3-text40"
+                        ><span>Video tutorials</span></span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text8 BodyLarge"
+                    ><span
+                      >Learn the basics of Burp Suite Professional - with our
+                      series of beginner video tutorials.</span
+                    ></span
+                  ><div class="card-portrait-container6"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link2"
+                      ><h6 class="card-portrait-text9 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right2" /></div></div></div></card-portrait-wrapper-4ah2></div
+          ><div class="amp-campaign-page-template1v3-container22"
+            ><card-portrait-wrapper-0kqk
+              class="card-portrait-wrapper-0kqk"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container7 card-portraitroot-class-name25"
+                ><div class="card-portrait-frame55123"
+                  ><img
+                    alt="image"
+                    src="public/burp-suite-scanner1-300h.jpg"
+                    class="card-portrait-image3" /><h4
+                    class="card-portrait-text10 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template1v3-fragment17"
+                      ><span class="amp-campaign-page-template1v3-text42"
+                        ><span>Video tutorials</span></span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text11 BodyLarge"
+                    ><span
+                      >Learn the basics of Burp Suite Professional - with our
+                      series of beginner video tutorials.</span
+                    ></span
+                  ><div class="card-portrait-container8"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link3"
+                      ><h6 class="card-portrait-text12 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right3" /></div></div></div></card-portrait-wrapper-0kqk
+            ><card-portrait-wrapper-qgyv
+              class="card-portrait-wrapper-qgyv"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container9 card-portraitroot-class-name26"
+                ><div class="card-portrait-frame55124"
+                  ><img
+                    alt="image"
+                    src="public/burp-suite-scanner1-300h.jpg"
+                    class="card-portrait-image4" /><h4
+                    class="card-portrait-text13 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template1v3-fragment18"
+                      ><span class="amp-campaign-page-template1v3-text44"
+                        ><span>Video tutorials</span></span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text14 BodyLarge"
+                    ><span
+                      >Learn the basics of Burp Suite Professional - with our
+                      series of beginner video tutorials.</span
+                    ></span
+                  ><div class="card-portrait-container10"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link4"
+                      ><h6 class="card-portrait-text15 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right4" /></div></div></div></card-portrait-wrapper-qgyv
+            ><card-portrait-wrapper-tnk5
+              class="card-portrait-wrapper-tnk5"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container11 card-portraitroot-class-name27"
+                ><div class="card-portrait-frame55125"
+                  ><img
+                    alt="image"
+                    src="public/burp-suite-scanner1-300h.jpg"
+                    class="card-portrait-image5" /><h4
+                    class="card-portrait-text16 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template1v3-fragment19"
+                      ><span class="amp-campaign-page-template1v3-text46"
+                        ><span>Video tutorials</span></span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text17 BodyLarge"
+                    ><span
+                      >Learn the basics of Burp Suite Professional - with our
+                      series of beginner video tutorials.</span
+                    ></span
+                  ><div class="card-portrait-container12"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link5"
+                      ><h6 class="card-portrait-text18 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right5" /></div></div></div></card-portrait-wrapper-tnk5></div></div></div
+    ></div>
+    <script>
+      (function(window, document, dataLayerName, id) {
+          window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});
+          var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+          function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+          var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+          stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+          var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),tags.nonce="@Html.Raw(Context.GetNonce())",isStgDebug&&qP.push("stg_debug");
+          var qPString=qP.length>0?("?"+qP.join("&")):"";
+          tags.async=!0,tags.src="https://ps.containers.piwik.pro/"+id+".js"+qPString,
+          scripts.parentNode.insertBefore(tags,scripts);
+          !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){
+          var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+          })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');</script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

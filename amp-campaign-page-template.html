@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Amp-campaign-page-template - Copy 4 of Portswigger website</title
+    ><meta
+      property="og:title"
+      content="Amp-campaign-page-template - Copy 4 of Portswigger website"
+    /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link
+      rel="preload"
+      href="/mega-nav/images/mega-nav-portswigger-logo.svg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-main/ps-icons.woff?l1la2n"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-icons-small/ps-icons-small.woff?td2uot"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" href="/mega-nav/meganav.css" as="style" />
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script>
+      (function(window, document, dataLayerName, id) {
+      function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+      var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+      stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+      var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");
+      var qPString=qP.length>0?("?"+qP.join("&")):"";
+      document.write('<nonce-script src="https://ps.containers.piwik.pro/'+id+'.sync.js' + qPString + '" nonce="NIFdcp1UaO0OFJv1ewzs2Putqt1LcUl0"></' + 'nonce-script>');
+      })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');
+      });
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./amp-campaign-page-template.css" rel="stylesheet" /><div
+        class="amp-campaign-page-template-container1"
+        ><div class="amp-campaign-page-template-container2"
+          ><header-dark-wrapper
+            class="header-dark-wrapper"
+            rootclassname="header-darkundefined"
+            ><!--HeaderDark component--><div
+              class="header-dark-container1 header-darkroot-class-name4"
+              ><div class="header-dark-default-header"
+                ><img
+                  alt="LogosPortswigger7418"
+                  src="public/ps-logo-dark.svg"
+                  class="header-dark-logos-portswigger" /><div
+                  class="header-dark-navigation"
+                  ><div id="Solutions" class="header-dark-container2"
+                    ><span id="Products" class="header-dark-text1 BodyLarge"
+                      ><span>Products</span></span
+                    ><img
+                      alt="ChevronDown7418"
+                      src="public/chevron%20down.svg"
+                      class="header-dark-chevron-down1" /></div
+                  ><div id="Solutions" class="header-dark-container3"
+                    ><span id="Solutions" class="header-dark-text2 BodyLarge"
+                      ><span>Solutions</span></span
+                    ><img
+                      alt="ChevronDown7418"
+                      src="public/chevron%20down.svg"
+                      class="header-dark-chevron-down2" /></div
+                  ><span id="Research" class="header-dark-text3 BodyLarge"
+                    ><span>Research</span></span
+                  ><span id="Academy" class="header-dark-text4 BodyLarge"
+                    ><span>Academy</span></span
+                  ><div id="Solutions" class="header-dark-container4"
+                    ><span id="Support" class="header-dark-text5 BodyLarge"
+                      ><span>Support</span></span
+                    ><img
+                      alt="ChevronDown7418"
+                      src="public/chevron%20down.svg"
+                      class="header-dark-chevron-down3" /></div
+                  ><div id="Solutions" class="header-dark-container5"
+                    ><span id="Resources" class="header-dark-text6 BodyLarge"
+                      ><span>Resources</span></span
+                    ><img
+                      alt="ChevronDown7418"
+                      src="public/chevron%20down.svg"
+                      class="header-dark-chevron-down4" /></div></div></div></div></header-dark-wrapper
+          ><img-left-small-wrapper
+            class="img-left-small-wrapper"
+            rootclassname="img-left-smallundefined"
+            ><!--ImgLeftSmall component--><div
+              class="img-left-small-container1 img-left-smallroot-class-name6"
+              ><div class="img-left-small-container2"
+                ><img
+                  alt="image"
+                  src="public/bapp-store-image-1400w.png"
+                  class="img-left-small-image"
+                /><div class="img-left-small-container3"
+                  ><span class="img-left-small-text1 BodyRegularBold"
+                    ><fragment class="amp-campaign-page-template-fragment10"
+                      ><span class="amp-campaign-page-template-text10"
+                        >New feature</span
+                      ></fragment
+                    ></span
+                  ><h2 class="Desktop-Heading1 img-left-small-text2"
+                    ><fragment class="amp-campaign-page-template-fragment12"
+                      ><span class="amp-campaign-page-template-text12"
+                        ><span>Test title</span
+                        ><br /><br /></span></fragment></h2
+                  ><span class="HeadingHeading6Light img-left-small-text3"
+                    ><fragment class="amp-campaign-page-template-fragment11"
+                      ><span class="amp-campaign-page-template-text11"
+                        >Here is some example text</span
+                      ></fragment
+                    ></span
+                  ></div
+                ></div
+              ></div
+            ></img-left-small-wrapper
+          ><hero-banner-dark1-wrapper
+            class="hero-banner-dark1-wrapper"
+            rootclassname="hero-banner-dark1undefined"
+            ><!--HeroBannerDark1 component--><div
+              class="hero-banner-dark1-container1 hero-banner-dark1root-class-name1"
+              ><div class="hero-banner-dark1-container2"
+                ><div class="hero-banner-dark1-container3"
+                  ><h1 class="hero-banner-dark1-text1 Desktop-Display1"
+                    ><span>Sample heading goes here</span></h1
+                  ><span class="hero-banner-dark1-text2 Desktop-Heading4Light"
+                    ><span>Teasadsdad fsdfsfxt</span></span
+                  ><primary-button-light-wrapper
+                    class="primary-button-light-wrapper"
+                    rootclassname="primary-button-lightundefined"
+                    ><!--PrimaryButtonLight component--><div
+                      src="7974de57-64f4-46b4-83c5-5f10a99ce378"
+                      class="primary-button-light-container primary-button-lightroot-class-name23"
+                      ><a
+                        href="https://www.teleporthq.io"
+                        class="primary-button-light-button button"
+                        ><span
+                          buttontext="TQ_TH6-S_dqix"
+                          class="primary-button-light-text1 BodyLargeBold"
+                          ><fragment class="hero-banner-dark1-fragment"
+                            ><span class="hero-banner-dark1-text3"
+                              >This is a primary button</span
+                            ></fragment
+                          ></span
+                        ><img
+                          id=""
+                          alt="ChevronRightI2321"
+                          src="public/external/chevronrighti2321-9hoy.svg"
+                          class="primary-button-light-chevron-right" /></a></div></primary-button-light-wrapper></div
+                ><img
+                  alt="Tasksubmenu25003"
+                  src="public/external/tasksubmenu25003-fqk8-500w-500w.png"
+                  class="hero-banner-dark1-tasksubmenu2" /></div></div></hero-banner-dark1-wrapper></div
+        ><h2 class="amp-campaign-page-template-text16 Desktop-Heading3"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum. </h2
+        ><span class="amp-campaign-page-template-text17"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod
+          malesuada. Nam facilisis, nisl in bibendum varius, neque sapien
+          ultricies dui, sit amet pellentesque nisi nisi at lacus. Fusce id
+          justo a odio varius sodales. </span
+        ><features17amp-wrapper class="features17amp-wrapper"
+          ><!--Features17AMP component--><div
+            class="features17amp-layout349 thq-section-padding"
+            ><div class="features17amp-max-width thq-section-max-width"
+              ><div class="features17amp-image-container"
+                ><img
+                  alt="Image"
+                  src="https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1400"
+                  class="thq-img-ratio-16-9" /></div
+              ><div class="features17amp-content1"
+                ><div class="features17amp-section-title"
+                  ><span class="thq-body-small"
+                    ><fragment class="amp-campaign-page-template-fragment14"
+                      ><span class="amp-campaign-page-template-text19"
+                        >Slogan</span
+                      ></fragment
+                    ></span
+                  ><div class="features17amp-content2"
+                    ><h2 class="thq-heading-2"
+                      ><fragment class="amp-campaign-page-template-fragment13"
+                        ><span class="amp-campaign-page-template-text18"
+                          >Discover the Key Feature #1</span
+                        ></fragment
+                      ></h2
+                    ><p class="thq-body-large"
+                      ><fragment class="amp-campaign-page-template-fragment15"
+                        ><span class="amp-campaign-page-template-text20"
+                          >Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Suspendisse varius enim in eros elementum
+                          tristique. Duis cursus, mi quis viverra ornare, eros
+                          dolor interdum nulla, ut commodo diam libero vitae
+                          erat. Suspendisse varius enim in eros elementum
+                          tristique. Duis cursus, mi quis viverra ornare, eros
+                          dolor interdum nulla.</span
+                        ></fragment
+                      ></p
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></features17amp-wrapper
+        ><features18amp-wrapper class="features18amp-wrapper"
+          ><!--Features18AMP component--><div
+            class="features18amp-layout349 thq-section-padding"
+            ><div class="features18amp-max-width thq-section-max-width"
+              ><div class="features18amp-content1"
+                ><div class="features18amp-section-title"
+                  ><span class="thq-body-small"
+                    ><fragment class="amp-campaign-page-template-fragment17"
+                      ><span class="amp-campaign-page-template-text22"
+                        >Slogan</span
+                      ></fragment
+                    ></span
+                  ><div class="features18amp-content2"
+                    ><h2 class="thq-heading-2"
+                      ><fragment class="amp-campaign-page-template-fragment16"
+                        ><span class="amp-campaign-page-template-text21"
+                          >Discover the Key Feature #1</span
+                        ></fragment
+                      ></h2
+                    ><p class="thq-body-large"
+                      ><fragment class="amp-campaign-page-template-fragment18"
+                        ><span class="amp-campaign-page-template-text23"
+                          >Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Suspendisse varius enim in eros elementum
+                          tristique. Duis cursus, mi quis viverra ornare, eros
+                          dolor interdum nulla, ut commodo diam libero vitae
+                          erat. Suspendisse varius enim in eros elementum
+                          tristique. Duis cursus, mi quis viverra ornare, eros
+                          dolor interdum nulla.</span
+                        ></fragment
+                      ></p
+                    ></div
+                  ></div
+                ></div
+              ><div class="features18amp-image-container"
+                ><img
+                  alt="Image"
+                  src="https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1400"
+                  class="thq-img-ratio-16-9" /></div></div></div></features18amp-wrapper
+        ><features17amp-wrapper-a77s class="features17amp-wrapper-a77s"
+          ><!--Features17AMP component--><div
+            class="features17amp-layout3491 thq-section-padding"
+            ><div class="features17amp-max-width1 thq-section-max-width"
+              ><div class="features17amp-image-container1"
+                ><img
+                  alt="Image"
+                  src="https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1400"
+                  class="thq-img-ratio-16-9" /></div
+              ><div class="features17amp-content3"
+                ><div class="features17amp-section-title1"
+                  ><span class="thq-body-small"
+                    ><fragment class="amp-campaign-page-template-fragment20"
+                      ><span class="amp-campaign-page-template-text25"
+                        >Slogan</span
+                      ></fragment
+                    ></span
+                  ><div class="features17amp-content4"
+                    ><h2 class="thq-heading-2"
+                      ><fragment class="amp-campaign-page-template-fragment19"
+                        ><span class="amp-campaign-page-template-text24"
+                          >Discover the Key Feature #1</span
+                        ></fragment
+                      ></h2
+                    ><p class="thq-body-large"
+                      ><fragment class="amp-campaign-page-template-fragment21"
+                        ><span class="amp-campaign-page-template-text26"
+                          >Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Suspendisse varius enim in eros elementum
+                          tristique. Duis cursus, mi quis viverra ornare, eros
+                          dolor interdum nulla, ut commodo diam libero vitae
+                          erat. Suspendisse varius enim in eros elementum
+                          tristique. Duis cursus, mi quis viverra ornare, eros
+                          dolor interdum nulla.</span
+                        ></fragment
+                      ></p
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></features17amp-wrapper-a77s
+        ><quotation-large-light-mode-wrapper
+          class="quotation-large-light-mode-wrapper"
+          rootclassname="quotation-large-light-modeundefined"
+          ><!--QuotationLargeLightMode component--><div
+            class="quotation-large-light-mode-container quotation-large-light-moderoot-class-name"
+            ><div class="quotation-large-light-mode-frame5519"
+              ><h1 class="quotation-large-light-mode-text1 Desktop-Heading1"
+                ><span
+                  >“Is there anything better than Burp Suite Professional by
+                  @PortSwigger? I have some tools like it but I have yet to find
+                  anything as good”</span
+                ></h1
+              ><span class="quotation-large-light-mode-text2"
+                ><span>Source: @AlicornSkyler - Twitter</span></span
+              ></div
+            ></div
+          ></quotation-large-light-mode-wrapper
+        ><stats20-wrapper
+          class="stats20-wrapper"
+          rootclassname="stats20undefined"
+          ><!--Stats20 component--><div
+            class="thq-section-padding stats20root-class-name"
+            ><div class="stats20-max-width thq-section-max-width"
+              ><div class="stats20-container2"
+                ><h2 class="stats20-title thq-heading-2"
+                  ><fragment class="amp-campaign-page-template-fragment26"
+                    ><span class="amp-campaign-page-template-text31"
+                      ><span>Some helpful stats to illustrate the point</span
+                      ><br /></span></fragment></h2
+                ><span class="stats20-content thq-body-small"
+                  ><fragment class="amp-campaign-page-template-fragment25"
+                    ><span class="amp-campaign-page-template-text30"
+                      >Our results in numbers</span
+                    ></fragment
+                  ></span
+                ></div
+              ><div class="stats20-container3 thq-grid-3"
+                ><div class="stats20-container4"
+                  ><svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                    <path
+                      d="M928 128h-832c-52.8 0-96 43.2-96 96v576c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-576c0-52.8-43.2-96-96-96zM96 192h832c17.346 0 32 14.654 32 32v96h-896v-96c0-17.346 14.654-32 32-32zM928 832h-832c-17.346 0-32-14.654-32-32v-288h896v288c0 17.346-14.654 32-32 32zM128 640h64v128h-64zM256 640h64v128h-64zM384 640h64v128h-64z"
+                    ></path></svg
+                  ><h2 class="thq-heading-2 stats20-text10"
+                    ><fragment class="amp-campaign-page-template-fragment22"
+                      ><span class="amp-campaign-page-template-text27"
+                        >99%</span
+                      ></fragment
+                    ></h2
+                  ><span class="stats20-text11 thq-body-small"
+                    ><fragment class="amp-campaign-page-template-fragment30"
+                      ><span class="amp-campaign-page-template-text37"
+                        >Customer satisfaction</span
+                      ></fragment
+                    ></span
+                  ><span class="stats20-text12 thq-body-small"
+                    ><fragment class="amp-campaign-page-template-fragment27"
+                      ><span class="amp-campaign-page-template-text34"
+                        >Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est
+                        laborum.</span
+                      ></fragment
+                    ></span
+                  ><button
+                    name="Read more"
+                    type="button"
+                    class="thq-button-flat"
+                    ><span class="stats20-text13 thq-body-small">Read more</span
+                    ><svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                      <path
+                        d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
+                      ></path></svg></button></div
+                ><div class="stats20-container5"
+                  ><svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                    <path
+                      d="M928 128h-832c-52.8 0-96 43.2-96 96v576c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-576c0-52.8-43.2-96-96-96zM96 192h832c17.346 0 32 14.654 32 32v96h-896v-96c0-17.346 14.654-32 32-32zM928 832h-832c-17.346 0-32-14.654-32-32v-288h896v288c0 17.346-14.654 32-32 32zM128 640h64v128h-64zM256 640h64v128h-64zM384 640h64v128h-64z"
+                    ></path></svg
+                  ><h2 class="thq-heading-2 stats20-text14"
+                    ><fragment class="amp-campaign-page-template-fragment23"
+                      ><span class="amp-campaign-page-template-text28"
+                        >44%</span
+                      ></fragment
+                    ></h2
+                  ><span class="stats20-text15 thq-body-small"
+                    ><fragment class="amp-campaign-page-template-fragment31"
+                      ><span class="amp-campaign-page-template-text38"
+                        >Active users</span
+                      ></fragment
+                    ></span
+                  ><span class="stats20-text16 thq-body-small"
+                    ><fragment class="amp-campaign-page-template-fragment28"
+                      ><span class="amp-campaign-page-template-text35"
+                        >Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est
+                        laborum.</span
+                      ></fragment
+                    ></span
+                  ><button
+                    name="Read more"
+                    type="button"
+                    class="thq-button-flat"
+                    ><span class="stats20-text17 thq-body-small">Read more</span
+                    ><svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                      <path
+                        d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
+                      ></path></svg></button></div
+                ><div class="stats20-container6"
+                  ><svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                    <path
+                      d="M928 128h-832c-52.8 0-96 43.2-96 96v576c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-576c0-52.8-43.2-96-96-96zM96 192h832c17.346 0 32 14.654 32 32v96h-896v-96c0-17.346 14.654-32 32-32zM928 832h-832c-17.346 0-32-14.654-32-32v-288h896v288c0 17.346-14.654 32-32 32zM128 640h64v128h-64zM256 640h64v128h-64zM384 640h64v128h-64z"
+                    ></path></svg
+                  ><h2 class="thq-heading-2 stats20-text18"
+                    ><fragment class="amp-campaign-page-template-fragment24"
+                      ><span class="amp-campaign-page-template-text29"
+                        >99%</span
+                      ></fragment
+                    ></h2
+                  ><span class="stats20-text19 thq-body-small"
+                    ><fragment class="amp-campaign-page-template-fragment32"
+                      ><span class="amp-campaign-page-template-text39"
+                        >Customer satisfaction</span
+                      ></fragment
+                    ></span
+                  ><span class="stats20-text20 thq-body-small"
+                    ><fragment class="amp-campaign-page-template-fragment29"
+                      ><span class="amp-campaign-page-template-text36"
+                        >Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est
+                        laborum.</span
+                      ></fragment
+                    ></span
+                  ><button
+                    name="Read more"
+                    type="button"
+                    class="thq-button-flat"
+                    ><span class="stats20-text21 thq-body-small">Read more</span
+                    ><svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                      <path
+                        d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
+                      ></path></svg></button></div></div></div></div></stats20-wrapper
+        ><div class="amp-campaign-page-template-container3"
+          ><h1 class="amp-campaign-page-template-text40 Desktop-Heading1"
+            >Links to key campaign pages etc</h1
+          ><div class="amp-campaign-page-template-container4"
+            ><card-portrait-wrapper
+              class="card-portrait-wrapper"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container1 card-portraitroot-class-name10"
+                ><div class="card-portrait-frame5512"
+                  ><img
+                    alt="image"
+                    src="public/burp-suite-scanner1-300h.jpg"
+                    class="card-portrait-image" /><h4
+                    class="card-portrait-text1 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template-fragment33"
+                      ><span class="amp-campaign-page-template-text41"
+                        ><span>Video tutorials</span></span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text2 BodyLarge"
+                    ><span
+                      >Learn the basics of Burp Suite Professional - with our
+                      series of beginner video tutorials.</span
+                    ></span
+                  ><div class="card-portrait-container2"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link"
+                      ><h6 class="card-portrait-text3 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right" /></div></div></div></card-portrait-wrapper
+            ><card-portrait-wrapper-w1am
+              class="card-portrait-wrapper-w1am"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container3 card-portraitroot-class-name11"
+                ><div class="card-portrait-frame55121"
+                  ><img
+                    alt="image"
+                    src="public/card-image-example2-300h.png"
+                    class="card-portrait-image1" /><h4
+                    class="card-portrait-text4 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template-fragment34"
+                      ><span class="amp-campaign-page-template-text43"
+                        >Discover powerful features</span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text5 BodyLarge"
+                    ><span
+                      >Seven killer features of Burp Suite Professional that
+                      help its users to test smarter - not harder.</span
+                    ></span
+                  ><div class="card-portrait-container4"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link1"
+                      ><h6 class="card-portrait-text6 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right1" /></div></div></div></card-portrait-wrapper-w1am
+            ><card-portrait-wrapper-yp2d
+              class="card-portrait-wrapper-yp2d"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container5 card-portraitroot-class-name12"
+                ><div class="card-portrait-frame55122"
+                  ><img
+                    alt="image"
+                    src="public/card-image-example3-300h.png"
+                    class="card-portrait-image2" /><h4
+                    class="card-portrait-text7 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template-fragment35"
+                      ><span class="amp-campaign-page-template-text44"
+                        >Product roadmap</span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text8 BodyLarge"
+                    ><span
+                      >Burp Suite Professional is always evolving. Discover what
+                      you can expect over the next 12 months.</span
+                    ></span
+                  ><div class="card-portrait-container6"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link2"
+                      ><h6 class="card-portrait-text9 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right2" /></div></div></div></card-portrait-wrapper-yp2d></div></div
+        ><div class="amp-campaign-page-template-container5"
+          ><div class="amp-campaign-page-template-container6"
+            ><card-portrait-wrapper-r7db
+              class="card-portrait-wrapper-r7db"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container7 card-portraitroot-class-name13"
+                ><div class="card-portrait-frame55123"
+                  ><img
+                    alt="image"
+                    src="public/burp-suite-scanner1-300h.jpg"
+                    class="card-portrait-image3" /><h4
+                    class="card-portrait-text10 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template-fragment36"
+                      ><span class="amp-campaign-page-template-text45"
+                        ><span>Video tutorials</span></span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text11 BodyLarge"
+                    ><span
+                      >Learn the basics of Burp Suite Professional - with our
+                      series of beginner video tutorials.</span
+                    ></span
+                  ><div class="card-portrait-container8"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link3"
+                      ><h6 class="card-portrait-text12 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right3" /></div></div></div></card-portrait-wrapper-r7db
+            ><card-portrait-wrapper-3p9a
+              class="card-portrait-wrapper-3p9a"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container9 card-portraitroot-class-name14"
+                ><div class="card-portrait-frame55124"
+                  ><img
+                    alt="image"
+                    src="public/card-image-example2-300h.png"
+                    class="card-portrait-image4" /><h4
+                    class="card-portrait-text13 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template-fragment37"
+                      ><span class="amp-campaign-page-template-text47"
+                        >Discover powerful features</span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text14 BodyLarge"
+                    ><span
+                      >Seven killer features of Burp Suite Professional that
+                      help its users to test smarter - not harder.</span
+                    ></span
+                  ><div class="card-portrait-container10"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link4"
+                      ><h6 class="card-portrait-text15 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right4" /></div></div></div></card-portrait-wrapper-3p9a
+            ><card-portrait-wrapper-e2w4
+              class="card-portrait-wrapper-e2w4"
+              rootclassname="card-portraitundefined"
+              ><!--CardPortrait component--><div
+                class="card-portrait-container11 card-portraitroot-class-name15"
+                ><div class="card-portrait-frame55125"
+                  ><img
+                    alt="image"
+                    src="public/card-image-example3-300h.png"
+                    class="card-portrait-image5" /><h4
+                    class="card-portrait-text16 Desktop-Heading4"
+                    ><fragment class="amp-campaign-page-template-fragment38"
+                      ><span class="amp-campaign-page-template-text48"
+                        >Product roadmap</span
+                      ></fragment
+                    ></h4
+                  ><span class="card-portrait-text17 BodyLarge"
+                    ><span
+                      >Burp Suite Professional is always evolving. Discover what
+                      you can expect over the next 12 months.</span
+                    ></span
+                  ><div class="card-portrait-container12"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="card-portrait-link5"
+                      ><h6 class="card-portrait-text18 BodyLargeBold"
+                        ><span>This is a quaternary link</span></h6
+                      ></a
+                    ><img
+                      alt="ChevronRightI2354"
+                      src="public/external/chevronrighti2354-ea9k.svg"
+                      class="card-portrait-chevron-right5" /></div></div></div></card-portrait-wrapper-e2w4></div></div
+        ><img
+          alt="image"
+          src="public/professional%20app.svg"
+          class="amp-campaign-page-template-image" /><h1
+          class="amp-campaign-page-template-text49 Desktop-Heading1"
+          >Ready to request a demo?</h1
+        ><span class="amp-campaign-page-template-text50"
+          >Experience the leading toolkit for web security testing</span
+        ><primary-button-light-wrapper-rdvx
+          class="primary-button-light-wrapper-rdvx"
+          rootclassname="primary-button-lightundefined"
+          ><!--PrimaryButtonLight component--><div
+            src="7974de57-64f4-46b4-83c5-5f10a99ce378"
+            class="primary-button-light-container1 primary-button-lightroot-class-name16"
+            ><a
+              href="https://www.teleporthq.io"
+              class="primary-button-light-button1 button"
+              ><span
+                buttontext="TQ_TH6-S_dqix"
+                class="primary-button-light-text2 BodyLargeBold"
+                ><fragment class="primary-button-light-fragment"
+                  ><span class="primary-button-light-text3"
+                    >This is a primary button</span
+                  ></fragment
+                ></span
+              ><img
+                id=""
+                alt="ChevronRightI2321"
+                src="public/external/chevronrighti2321-9hoy.svg"
+                class="primary-button-light-chevron-right1" /></a></div></primary-button-light-wrapper-rdvx></div
+    ></div>
+    <script>
+      (function(window, document, dataLayerName, id) {
+          window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});
+          var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+          function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+          var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+          stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+          var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),tags.nonce="@Html.Raw(Context.GetNonce())",isStgDebug&&qP.push("stg_debug");
+          var qPString=qP.length>0?("?"+qP.join("&")):"";
+          tags.async=!0,tags.src="https://ps.containers.piwik.pro/"+id+".js"+qPString,
+          scripts.parentNode.insertBefore(tags,scripts);
+          !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){
+          var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+          })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');</script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Outpost24-Case-Study - Copy 4 of Portswigger website</title
+    ><meta
+      property="og:title"
+      content="Outpost24-Case-Study - Copy 4 of Portswigger website"
+    /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link
+      rel="preload"
+      href="/mega-nav/images/mega-nav-portswigger-logo.svg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-main/ps-icons.woff?l1la2n"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-icons-small/ps-icons-small.woff?td2uot"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" href="/mega-nav/meganav.css" as="style" />
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script>
+      (function(window, document, dataLayerName, id) {
+      function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+      var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+      stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+      var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");
+      var qPString=qP.length>0?("?"+qP.join("&")):"";
+      document.write('<nonce-script src="https://ps.containers.piwik.pro/'+id+'.sync.js' + qPString + '" nonce="NIFdcp1UaO0OFJv1ewzs2Putqt1LcUl0"></' + 'nonce-script>');
+      })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');
+      });
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="../style.css" /><div
+      ><link href="./outpost24-case-study.css" rel="stylesheet" /><div
+        class="outpost24-case-study-container10"
+        ><mega-nav-wrapper
+          class="mega-nav-wrapper"
+          rootclassname="mega-navundefined"
+          ><!--MegaNav component--><div
+            id="ps-header"
+            class="mega-nav-container1 mega-navroot-class-name17"
+            ><div class="mega-nav-container2"
+              ><div class="mega-nav-container3"
+                ><style>
+                  .hamburger-menu-link,
+                  .hamburger-menu-desktop div {
+                      pointer-events: none;
+                  }
+                  .hamburger-input-mobile:checked ~ .mega-nav .hamburger-menu-link-1,
+                  .hamburger-input-mobile:checked ~ .mega-nav .hamburger-menu-link-3,
+                  .hamburger-input-mobile:checked ~ .mega-nav .hamburger-menu-link-4,
+                  .hamburger-input-mobile:checked ~ .mega-nav .hamburger-menu-link-5,
+                  .hamburger-input-mobile:checked ~ .mega-nav .hamburger-menu-link-6,
+                  .hamburger-input-mobile:checked ~ .mega-nav .hamburger-menu-link-7 {
+                      pointer-events: all;
+                  }
+                  .hamburger-menu-desktop:hover div {
+                      pointer-events: all;
+                  }
+                  .mega-nav-input-1:checked ~ .hamburger-menu-desktop,
+                  .mega-nav-input-2:checked ~ .hamburger-menu-desktop,
+                  .mega-nav-input-6:checked ~ .hamburger-menu-desktop,
+                  .mega-nav-input-7:checked ~ .hamburger-menu-desktop {
+                      pointer-events: none;
+                  }
+                </style>
+                <link rel="stylesheet" href="/mega-nav/meganav.css" />
+                <script>
+                  body = document.querySelector('body');
+                  if(body !== null){
+                  body.insertAdjacentHTML('afterbegin',`<header class='page-header' id='top'>
+                              <div class='container'>
+                      <a class='logo' href='/'></a>
+                      <div class='header-right'>
+                          <div class='login-buttons'>
+                                  <a class='button-orange-small' href='/users/youraccount/personaldetails'>My account</a>
+                          </div>
+
+
+                      <input type='checkbox' id='hamburger-mobile' class='hamburger-input-mobile'>
+                      <input type='radio' id='hamburger-desktop' class='hamburger-input-desktop' name='mega-nav-input'>
+                      <div class='hamburger-menu-mobile'>
+                          <label class='hamburger-menu-label header-hidden' for='hamburger-mobile'>
+                              <span class='hamburger-layers'></span>
+                          </label>
+                      </div>
+                      <div class='mega-nav'>
+                          <input type='radio' id='mega-nav-close' class='mega-nav-input-close' name='mega-nav-input'>
+                          <input type='radio' id='mega-nav-label-1' class='mega-nav-input-1' name='mega-nav-input'>
+                          <input type='radio' id='mega-nav-label-2' class='mega-nav-input-2' name='mega-nav-input'>
+                          <input type='radio' id='mega-nav-label-6' class='mega-nav-input-6' name='mega-nav-input'>
+                          <input type='radio' id='mega-nav-label-7' class='mega-nav-input-7' name='mega-nav-input'>
+
+                          <label for='mega-nav-close' class='mega-nav-close'></label>
+
+                          <label class='mega-nav-label mega-nav-label-1' for='mega-nav-label-1'>
+                              <span class='mega-nav-text'>Products</span>
+                              <span class='icon-arrow-head-down'></span>
+                          </label>
+                          <label class='mega-nav-label mega-nav-label-2' for='mega-nav-label-2'>
+                              <span class='mega-nav-text'>Solutions</span>
+                              <span class='icon-arrow-head-down'></span>
+                          </label>
+                          <a class='mega-nav-link' href='/research'><span class='mega-nav-text'>Research</span></a>
+                          <a class='mega-nav-link' href='/web-security'><span class='mega-nav-text'>Academy</span></a>
+                          <label class='mega-nav-label mega-nav-label-6' for='mega-nav-label-6'>
+                              <span class='mega-nav-text'>Support</span>
+                              <span class='icon-arrow-head-down'></span>
+                          </label>
+
+                          <label class='mega-nav-label mega-nav-label-7 header-hidden' for='mega-nav-label-7'>
+                              <span class='mega-nav-text'>Company</span>
+                              <span class='icon-arrow-head-down'></span>
+                          </label>
+                          <div class='hamburger-menu-desktop'>
+                              <label class='hamburger-menu-label header-show' for='hamburger-desktop'>
+                                  <span class='hamburger-layers'></span>
+                              </label>
+                              <div>
+                                  <a class='hamburger-menu-desktop-link hamburger-menu-desktop-link-1' href='/customers'><span class='mega-nav-text'>Customers</span></a>
+                                  <a class='hamburger-menu-desktop-link hamburger-menu-desktop-link-3' href='/about'><span class='mega-nav-text'>About</span></a>
+                                  <a class='hamburger-menu-desktop-link hamburger-menu-desktop-link-4' href='/blog'><span class='mega-nav-text'>Blog</span></a>
+                                  <a class='hamburger-menu-desktop-link hamburger-menu-desktop-link-5' href='/careers'><span class='mega-nav-text'>Careers</span></a>
+                                  <a class='hamburger-menu-desktop-link hamburger-menu-desktop-link-6' href='/legal'><span class='mega-nav-text'>Legal</span></a>
+                                  <a class='hamburger-menu-desktop-link hamburger-menu-desktop-link-7' href='/contact'><span class='mega-nav-text'>Contact</span></a>
+                                  <a class='hamburger-menu-desktop-link hamburger-menu-desktop-link-8' href='/support/reseller-faqs'><span class='mega-nav-text'>Resellers</span></a>
+                              </div>
+                          </div>
+
+                          <a class='mega-nav-link header-hidden' href='/users/youraccount'><span class='mega-nav-text'>My account</span></a>
+                          <a class='hamburger-menu-link hamburger-menu-link-1' href='/customers'><span class='mega-nav-text'>Customers</span></a>
+                          <a class='hamburger-menu-link hamburger-menu-link-3' href='/about'><span class='mega-nav-text'>About</span></a>
+                          <a class='hamburger-menu-link hamburger-menu-link-4' href='/blog'><span class='mega-nav-text'>Blog</span></a>
+                          <a class='hamburger-menu-link hamburger-menu-link-5' href='/careers'><span class='mega-nav-text'>Careers</span></a>
+                          <a class='hamburger-menu-link hamburger-menu-link-6' href='/legal'><span class='mega-nav-text'>Legal</span></a>
+                          <a class='hamburger-menu-link hamburger-menu-link-7' href='/contact'><span class='mega-nav-text'>Contact</span></a>
+                          <a class='hamburger-menu-link hamburger-menu-link-8' href='/support/reseller-faqs'><span class='mega-nav-text'>Resellers</span></a>
+
+                          <div class='mega-nav-container'>
+
+                              <div class='mega-nav-content mega-nav-content-1'>
+                                  <div class='section-white-medium-no-padding'>
+                                      <div class='container-columns-66-percent-right'>
+                                          <div>
+                                              <a href='/burp/enterprise' class='link-block-white'>
+                                                  <img src='/mega-nav/images/mega-nav-enterprise.svg' alt='Burp Suite Enterprise Edition'>
+                                                  <span><strong>Burp Suite Enterprise Edition</strong></span>
+                                                  <span>The enterprise-enabled dynamic web vulnerability scanner.</span>
+                                              </a>
+
+                                              <a href='/burp/pro' class='link-block-white'>
+                                                  <img src='/mega-nav/images/mega-nav-professional.svg' alt='Burp Suite Professional'>
+                                                  <span><strong>Burp Suite Professional</strong></span>
+                                                  <span>The world's #1 web penetration testing toolkit.</span>
+                                              </a>
+
+                                              <a href='/burp/communitydownload' class='link-block-white'>
+                                                  <img src='/mega-nav/images/mega-nav-community.svg' alt='Burp Suite Community Edition'>
+                                                  <span><strong>Burp Suite Community Edition</strong></span>
+                                                  <span>The best manual tools to start web security testing.</span>
+                                              </a>
+
+                                              <a href='/burp/dastardly' class='link-block-white'>
+                                                  <img src='/mega-nav/images/mega-nav-dastardly.svg' alt='Dastardly, from Burp Suite'>
+                                                  <span><strong>Dastardly, from Burp Suite</strong></span>
+                                                  <span>Free, lightweight web application security scanning for CI/CD.</span>
+                                              </a>
+
+                                              <a href='/burp' class='chevron-after'>View all product editions</a>
+                                          </div>
+
+                                          <div>
+                                              <div class='container-cards-lists-white'>
+                                                  <a href='/burp/vulnerability-scanner'>
+                                                      <p><strong>Burp Scanner</strong></p>
+                                                      <p>Burp Suite's web vulnerability scanner</p>
+                                                      <img src='/mega-nav/images/burp-suite-scanner.jpg' alt='Burp Suite's web vulnerability scanner''>
+                                                  </a>
+                                              </div>
+
+                                          </div>
+
+
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class='mega-nav-content mega-nav-content-2'>
+                                  <div class='section-white-medium-no-padding'>
+                                      <div class='container-columns-66-percent-right'>
+                                          <div>
+                                              <div class='container-columns'>
+                                                  <a href='/solutions/attack-surface-visibility' class='link-block-white'>
+                                                      <span><strong>Attack surface visibility</strong></span>
+                                                      <span>Improve security posture, prioritize manual testing, free up time.</span>
+                                                  </a>
+                                                  <a href='/solutions/ci-driven-scanning' class='link-block-white'>
+                                                      <span><strong>CI-driven scanning</strong></span>
+                                                      <span>More proactive security - find and fix vulnerabilities earlier.</span>
+                                                  </a>
+                                                  <a href='/solutions' class='link-block-white'>
+                                                      <span><strong>Application security testing</strong></span>
+                                                      <span>See how our software enables the world to secure the web.</span>
+                                                  </a>
+                                                  <a href='/solutions/devsecops' class='link-block-white'>
+                                                      <span><strong>DevSecOps</strong></span>
+                                                      <span>Catch critical bugs; ship more secure software, more quickly.</span>
+                                                  </a>
+
+                                                  <a href='/solutions/penetration-testing' class='link-block-white'>
+                                                      <span><strong>Penetration testing</strong></span>
+                                                      <span>Accelerate penetration testing - find more bugs, more quickly.</span>
+                                                  </a>
+                                                  <a href='/solutions/automated-security-testing' class='link-block-white'>
+                                                      <span><strong>Automated scanning</strong></span>
+                                                      <span>Scale dynamic scanning. Reduce risk. Save time/money.</span>
+                                                  </a>
+
+                                                  <a href='/solutions/bug-bounty-hunting' class='link-block-white'>
+                                                      <span><strong>Bug bounty hunting</strong></span>
+                                                      <span>Level up your hacking and earn more bug bounties.</span>
+                                                  </a>
+                                                  <a href='/solutions/compliance' class='link-block-white'>
+                                                      <span><strong>Compliance</strong></span>
+                                                      <span>Enhance security monitoring to comply with confidence.</span>
+                                                  </a>
+                                              </div>
+                                              <a href='/solutions' class='chevron-after'>View all solutions</a>
+                                          </div>
+
+                                          <div>
+                                              <div class='container-cards-lists-white'>
+                                                  <a href='/burp/enterprise/resources/enterprise-edition-vs-professional'>
+                                                      <p><strong>Product comparison</strong></p>
+                                                      <p>What's the difference between Pro and Enterprise Edition?</p>
+                                                      <img src='/mega-nav/images/burp-suite.jpg' alt='Burp Suite Professional vs Burp Suite Enterprise Edition'>
+                                                  </a>
+                                              </div>
+
+                                          </div>
+
+
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class='mega-nav-content mega-nav-content-6'>
+                                  <div class='section-white-medium-no-padding'>
+                                      <div class='container-columns-66-percent-right'>
+                                          <div>
+                                              <div class='container-columns'>
+                                                  <a href='/support' class='link-block-white'>
+                                                      <span><strong>Support Center</strong></span>
+                                                      <span>Get help and advice from our experts on all things Burp.</span>
+                                                  </a>
+                                                  <a href='/burp/documentation' class='link-block-white'>
+                                                      <span><strong>Documentation</strong></span>
+                                                      <span>Tutorials and guides for Burp Suite.</span>
+                                                  </a>
+                                                  <a href='/burp/documentation/desktop/getting-started' class='link-block-white'>
+                                                      <span><strong>Get Started - Professional</strong></span>
+                                                      <span>Get started with Burp Suite Professional.</span>
+                                                  </a>
+                                                  <a href='/burp/documentation/enterprise/getting-started' class='link-block-white'>
+                                                      <span><strong>Get Started - Enterprise</strong></span>
+                                                      <span>Get started with Burp Suite Enterprise Edition.</span>
+                                                  </a>
+                                                  <a href='https://forum.portswigger.net/' class='link-block-white'>
+                                                      <span><strong>User Forum</strong></span>
+                                                      <span>Get your questions answered in the User Forum.</span>
+                                                  </a>
+                                                  <a href='/burp/releases' class='link-block-white'>
+                                                      <span><strong>Downloads</strong></span>
+                                                      <span>Download the latest version of Burp Suite.</span>
+                                                  </a>
+                                              </div>
+                                              <a href='/support' class='chevron-after'>Visit the Support Center</a>
+                                          </div>
+
+                                          <div>
+                                              <div class='container-cards-lists-white'>
+                                                  <a href='/burp/releases'>
+                                                      <p><strong>Downloads</strong></p>
+                                                      <p>Download the latest version of Burp Suite.</p>
+                                                      <img src='/mega-nav/images/latest-burp-suite-software-download.jpg' alt='The latest version of Burp Suite software for download'>
+                                                  </a>
+                                              </div>
+
+                                          </div>
+
+
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                      </div>
+                  </div>
+                          </header>`);
+                          }
+                </script></div
+              ></div
+            ></div
+          ></mega-nav-wrapper
+        ><div class="outpost24-case-study-head"
+          ><div class="outpost24-case-study-container11"
+            ><div class="outpost24-case-study-container12"
+              ><div class="outpost24-case-study-container13"
+                ><img
+                  alt="image"
+                  src="../public/outpost24-logo-white.svg"
+                  class="outpost24-case-study-image10"
+                /><h1 class="outpost24-case-study-heading1"
+                  ><span
+                    >Efficient discovery, comprehensive application mapping, and
+                    advanced extensibility</span
+                  ><br /></h1
+                ><p class="outpost24-case-study-text102 rich-text-root"
+                  ><span
+                    >Pentesters face an ever-evolving challenge of testing
+                    sprawling applications for increasingly complex
+                    vulnerabilities. Tom Stacey, a Pentester within a 30-member
+                    AppSec team at </span
+                  ><a
+                    href="https://outpost24.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >Outpost24</a
+                  ><span>, is no different. </span></p
+                ><div class="outpost24-case-study-container14"
+                  ><div class="outpost24-case-study-container15"
+                    ><h1 class="outpost24-case-study-heading2">93%</h1
+                    ><span class="outpost24-case-study-text105"
+                      >LOREM IPSUM DOLOR</span
+                    ></div
+                  ><div class="outpost24-case-study-container16"
+                    ><h1 class="outpost24-case-study-heading3">93%</h1
+                    ><span class="outpost24-case-study-text106"
+                      >LOREM IPSUM DOLOR</span
+                    ></div
+                  ><div class="outpost24-case-study-container17"
+                    ><h1 class="outpost24-case-study-heading4">93%</h1
+                    ><span class="outpost24-case-study-text107"
+                      >LOREM IPSUM DOLOR</span
+                    ></div
+                  ></div
+                ></div
+              ><div class="outpost24-case-study-container18"
+                ><img
+                  alt="image"
+                  src="../public/burp-pro-case-study-hero-1300w.png"
+                  class="outpost24-case-study-image11" /></div></div></div
+          ><div class="outpost24-case-study-container19"
+            ><div class="outpost24-case-study-container20"
+              ><div class="outpost24-case-study-container21"
+                ><div class="outpost24-case-study-container22"
+                  ><img
+                    alt="image"
+                    src="../public/microsoft.svg"
+                    class="outpost24-case-study-image12"
+                  /><h1 class="outpost24-case-study-heading5"
+                    >Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.</h1
+                  ><span class="outpost24-case-study-text108"
+                    >Hands-on security testers need the best tools for the job.
+                    Tools you have faith in, and enjoy using all day long. The
+                    tools that other professionals trust.</span
+                  ><div class="outpost24-case-study-container23"
+                    ><div class="outpost24-case-study-container24"
+                      ><h1 class="outpost24-case-study-heading6">93%</h1
+                      ><span class="outpost24-case-study-text109"
+                        >LOREM IPSUM DOLOR</span
+                      ></div
+                    ><div class="outpost24-case-study-container25"
+                      ><h1 class="outpost24-case-study-heading7">93%</h1
+                      ><span class="outpost24-case-study-text110"
+                        >LOREM IPSUM DOLOR</span
+                      ></div
+                    ><div class="outpost24-case-study-container26"
+                      ><h1 class="outpost24-case-study-heading8">93%</h1
+                      ><span class="outpost24-case-study-text111"
+                        >LOREM IPSUM DOLOR</span
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div class="outpost24-case-study-container27"
+          ><div class="outpost24-case-study-container28"
+            ><div class="outpost24-case-study-main"
+              ><div
+                ><div class="outpost24-case-study-max-width"
+                  ><div class="outpost24-case-study-aside-menu"
+                    ><div class="outpost24-case-study-title"
+                      ><h4 class="outpost24-case-study-text112 heading-4"
+                        >In this story</h4
+                      ></div
+                    ><div class="outpost24-case-study-links"
+                      ><a href="#section-1" class="outpost24-case-study-link11"
+                        ><p class="outpost24-case-study-text113"
+                          >Introduction</p
+                        ></a
+                      ><a href="#section-2" class="outpost24-case-study-link12"
+                        ><span>Key highlights</span><br /></a
+                      ><a href="#section-3" class="outpost24-case-study-link13"
+                        >Tom's challenge</a
+                      ><a href="#section-4" class="outpost24-case-study-link14"
+                        >Building the sitemap</a
+                      ><a href="#section-5" class="outpost24-case-study-link15"
+                        >Identifying vulnerabilities</a
+                      ><a href="#section-6" class="outpost24-case-study-link16"
+                        >Actionable POC</a
+                      ><a href="#section-7" class="outpost24-case-study-link17"
+                        >Focus on what matters most</a
+                      ></div
+                    ></div
+                  ><div class="outpost24-case-study-content"
+                    ><div id="section-1"></div
+                    ><div class="outpost24-case-study-quote"
+                      ><div class="outpost24-case-study-container30"
+                        ><div class="outpost24-case-study-left-quote1"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-left-orange.svg"
+                            class="outpost24-case-study-image13" /></div
+                        ><div class="outpost24-case-study-container31"
+                          ><p class="outpost24-case-study-text116"
+                            >I use Burp every day. More people should use it if
+                            they're not already.</p
+                          ><p class="outpost24-case-study-text117"
+                            ><span class="outpost24-case-study-text118"
+                              >Tom Stacey, Application Security Pentester,
+                              Outpost24</span
+                            ><br /></p></div
+                        ><div class="outpost24-case-study-right-quote1"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-right-orange%201.svg"
+                            class="outpost24-case-study-image14" /></div></div></div
+                    ><div class="outpost24-case-study-section11"
+                      ><div class="outpost24-case-study-container32"
+                        ><p class="outpost24-case-study-text120 rich-text-root"
+                          ><span
+                            >Outpost24 provides Pentesting-as-a-Service, helping
+                            to uncover vulnerabilities in clients’ web
+                            applications, with Tom a part of the ethical hacking
+                            red team ‘Ghost Labs’. We spoke to Tom about his
+                            challenges, workflow, and how Burp helps him achieve
+                            his goals. </span
+                          ><span> </span><br /></p></div></div
+                    ><div id="section-2"></div
+                    ><div
+                      ><div class="outpost24-case-study-container33"
+                        ><h2 class="outpost24-case-study-text124"
+                          >Key highlights</h2
+                        ><ul class="outpost24-case-study-ul1 list"
+                          ><li class="outpost24-case-study-li1 list-item"
+                            ><span
+                              class="outpost24-case-study-text125 rich-text-root"
+                              >Using the complete toolkit in Burp to streamline
+                              all phases of the pentesting workflow.
+                            </span></li
+                          ><li class="outpost24-case-study-li2 list-item"
+                            ><span class="outpost24-case-study-text126"
+                              ><span
+                                >Burp Scanner allows for multi-tasking -
+                                capturing low-hanging fruit, while Tom explores
+                                other vulnerabilities manually. </span
+                              ><br /></span></li
+                          ><li class="outpost24-case-study-li3 list-item"
+                            ><span class="outpost24-case-study-text129"
+                              ><span
+                                >Adding extensions to Burp helps Tom gain even
+                                more value from the tools. </span
+                              ><br /></span></li></ul></div></div
+                    ><div id="section-3"></div
+                    ><div class="outpost24-case-study-section31"
+                      ><h2 class="outpost24-case-study-text132"
+                        >Tom’s challenge</h2
+                      ><p class="outpost24-case-study-text133 rich-text-root"
+                        ><span
+                          >With an increasing range of different attack
+                          scenarios to test for, across a wide variety of
+                          clients’ web estates, Tom faces a number of
+                          challenges: </span
+                        ><br /></p
+                      ><ul class="outpost24-case-study-ul2 list"
+                        ><li class="outpost24-case-study-li4 list-item"
+                          ><span
+                            class="outpost24-case-study-text136 rich-text-root"
+                            >As his clients’ web estates become increasingly
+                            complex, there are wider, more sprawling attack
+                            surfaces to scour.
+                          </span></li
+                        ><li class="outpost24-case-study-li5 list-item"
+                          ><span class="outpost24-case-study-text137"
+                            ><span
+                              >Identifying potential vulnerabilities is
+                              time-consuming, leaving Tom with less time to
+                              spend on the highest value work. </span
+                            ><br /></span></li
+                        ><li class="outpost24-case-study-li6 list-item"
+                          ><span class="outpost24-case-study-text140"
+                            ><span
+                              >His clients don’t just expect high-quality
+                              results, but concise, impactful reports and
+                              reproducible POCs they can action themselves. </span
+                            ><br /></span></li></ul
+                      ><p class="outpost24-case-study-text143 rich-text-root"
+                        ><span
+                          >Balancing extensiveness with efficiency is difficult,
+                          and Tom requires tools that complement his expertise.
+                          That’s where Burp comes in. </span
+                        ><br /><br /><span
+                          >For Tom and the Ghost Labs team, Burp is essential,
+                          “I actually don’t think a single one of the team isn’t
+                          using Burp on a daily basis." </span
+                        ><br /></p></div
+                    ><div id="section-4"></div
+                    ><div class="outpost24-case-study-section4"
+                      ><h2 class="outpost24-case-study-text149"
+                        >Building the sitemap and beginning recon</h2
+                      ><p class="outpost24-case-study-text150 rich-text-root"
+                        ><span
+                          >During this initial phase, Tom’s aim is to map and
+                          understand the full extent of the application’s attack
+                          surface using </span
+                        ><a
+                          href="https://portswigger.net/burp/documentation/desktop/tools/proxy"
+                          >Burp Proxy</a
+                        ><span>. </span></p
+                      ><div class="outpost24-case-study-container34"
+                        ><div class="outpost24-case-study-left-quote2"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-left-orange.svg"
+                            class="outpost24-case-study-image15" /></div
+                        ><div class="outpost24-case-study-container35"
+                          ><p class="outpost24-case-study-text153"
+                            >I find Burp incredibly helpful during discovery.
+                            Populating the site map gives me a tree view of the
+                            app, which is massively useful for identifying areas
+                            to focus on. What I often do is walk the application
+                            in the built-in browser then, for example, I might
+                            see an API just popped up, so I can look into
+                            that.</p
+                          ></div
+                        ><div class="outpost24-case-study-right-quote2"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-right-orange%201.svg"
+                            class="outpost24-case-study-image16" /></div></div
+                      ><p class="outpost24-case-study-text154 rich-text-root"
+                        ><span
+                          >Once a sitemap has been built out, Tom can begin
+                          probing areas of interest for more focused
+                          content-discovery using Proxy “to identify traffic
+                          that looks really interesting as an initial target".
+                          He then sends the associated requests to </span
+                        ><a
+                          href="https://portswigger.net/burp/documentation/desktop/tools/repeater"
+                          >Repeater</a
+                        ><span>&nbsp;</span
+                        ><span
+                          >for closer inspection “to help get an understanding
+                          of what's happening."</span
+                        ><br /><br /><span
+                          >While he’s focused on exploring high-value
+                          vulnerabilities with Proxy and Repeater, Tom leverages
+                          automation through the Scanner. </span
+                        ><br /><span> </span></p
+                      ><div class="outpost24-case-study-container36"
+                        ><div class="outpost24-case-study-left-quote3"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-left-orange.svg"
+                            class="outpost24-case-study-image17" /></div
+                        ><div class="outpost24-case-study-container37"
+                          ><p class="outpost24-case-study-text163"
+                            >I'll start a scan almost immediately and just have
+                            that running in the background to produce some very
+                            quick results and spot things that are otherwise
+                            really easy to miss.</p
+                          ></div
+                        ><div class="outpost24-case-study-right-quote3"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-right-orange%201.svg"
+                            class="outpost24-case-study-image18" /></div></div
+                      ><p class="outpost24-case-study-text164 rich-text-root"
+                        ><span
+                          >This toolset allows Tom to multi-task seamlessly. </span
+                        ><span> </span><br /><span> </span></p
+                      ><div class="outpost24-case-study-container38"
+                        ><div class="outpost24-case-study-left-quote4"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-left-orange.svg"
+                            class="outpost24-case-study-image19" /></div
+                        ><div class="outpost24-case-study-container39"
+                          ><p
+                            class="outpost24-case-study-text169 rich-text-root"
+                            ><span
+                              >What I really love is that, while I'm walking
+                              around the application, I can say 'oh, that's a
+                              cool endpoint!' then send it to </span
+                            ><a
+                              href="https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943"
+                              class="outpost24-case-study-link20"
+                              >Param Miner</a
+                            ><span>
+                              or run more targeted scans straight away. I know
+                              that's just happening in the background while I do
+                              more recon. I love all that.</span
+                            ></p
+                          ></div
+                        ><div class="outpost24-case-study-right-quote4"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-right-orange%201.svg"
+                            class="outpost24-case-study-image20" /></div></div></div
+                    ><div id="section-5"></div
+                    ><div class="outpost24-case-study-section5"
+                      ><h2 class="outpost24-case-study-text172"
+                        >Identifying vulnerabilities through automation and
+                        manual testing </h2
+                      ><p class="outpost24-case-study-text173 rich-text-root"
+                        ><span
+                          >Once Tom has built a comprehensive understanding of
+                          the application, he can begin the Attack phase. The
+                          primary objective here is to identify vulnerabilities
+                          that pose a significant risk to the target
+                          application. </span
+                        ><br /><br /><span>This is where the </span
+                        ><a
+                          href="https://portswigger.net/burp/vulnerability-scanner"
+                          >Scanner</a
+                        ><span> delivers real value for Tom. </span></p
+                      ><div class="outpost24-case-study-container40"
+                        ><div class="outpost24-case-study-left-quote5"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-left-orange.svg"
+                            class="outpost24-case-study-image21" /></div
+                        ><div class="outpost24-case-study-container41"
+                          ><p class="outpost24-case-study-text179"
+                            >I hate manual fuzzing and having to come up with
+                            test cases based on what I have in my notes.</p
+                          ></div
+                        ><div class="outpost24-case-study-right-quote5"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-right-orange%201.svg"
+                            class="outpost24-case-study-image22" /></div></div
+                      ><p class="outpost24-case-study-text180 rich-text-root"
+                        ><span
+                          >While he can’t remove all manual elements from
+                          testing, the Burp Scanner can reduce a lot of the
+                          pain, testing more payloads than he would be able to
+                          manually.</span
+                        ><span> </span></p
+                      ><div class="outpost24-case-study-container42"
+                        ><div class="outpost24-case-study-left-quote6"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-left-orange.svg"
+                            class="outpost24-case-study-image23" /></div
+                        ><div class="outpost24-case-study-container43"
+                          ><p class="outpost24-case-study-text183"
+                            >I love the Burp Scanner. It's probably my number
+                            one feature. It means I can focus on the manual
+                            testing and the stuff that I know the scanner can't
+                            do.</p
+                          ></div
+                        ><div class="outpost24-case-study-right-quote6"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-right-orange%201.svg"
+                            class="outpost24-case-study-image24" /></div></div
+                      ><p class="outpost24-case-study-text184 rich-text-root"
+                        ><span
+                          >As well as reducing manual work, Tom uses the Scanner
+                          for identifying specifics like injection
+                          vulnerabilities, or finding a JSON object inside of a
+                          parameter, while using extensions like </span
+                        ><a
+                          href="https://portswigger.net/bappstore/65033cbd2c344fbabe57ac060b5dd100"
+                          >Hackverter</a
+                        ><span> and </span
+                        ><a
+                          href="https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8"
+                          >Backslash Power Scanner</a
+                        ><span> to add even more power. </span><br /><br /><span
+                          >Any potential issues found in the Scanner (and
+                          elsewhere) are then sent to Repeater, where Tom can
+                          test different avenues and begin building his POC. </span
+                        ><br /><span> </span></p></div
+                    ><div class="outpost24-case-study-image-box"
+                      ><img
+                        alt="image"
+                        src="https://play.teleporthq.io/static/svg/default-img.svg"
+                        class="outpost24-case-study-image25" /></div
+                    ><div id="section-6"></div
+                    ><div class="outpost24-case-study-section6"
+                      ><h2 class="outpost24-case-study-text193"
+                        >Distilling the results into an actionable POC</h2
+                      ><p class="outpost24-case-study-text194 rich-text-root"
+                        ><span
+                          >In the final phase of his workflow, Tom needs to
+                          report on his findings and create a POC for his
+                          clients to take away and action themselves. </span
+                        ><br /><br /><span>While he doesn’t use </span
+                        ><a
+                          href="https://portswigger.net/burp/documentation/desktop/getting-started/generate-reports"
+                          >Burp’s built-in report generation</a
+                        ><span
+                          >, Tom does utilise Repeater to compile reports. </span
+                        ><br /></p
+                      ><div class="outpost24-case-study-container44"
+                        ><div class="outpost24-case-study-left-quote7"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-left-orange.svg"
+                            class="outpost24-case-study-image26" /></div
+                        ><div class="outpost24-case-study-container45"
+                          ><p class="outpost24-case-study-text201"
+                            >Usually I send the request to Repeater, edit it
+                            into the simplest form I possibly can, and then I
+                            take its URL into our reporting tool and build a
+                            proof of concept.</p
+                          ></div
+                        ><div class="outpost24-case-study-right-quote7"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-right-orange%201.svg"
+                            class="outpost24-case-study-image27" /></div></div
+                      ><p class="outpost24-case-study-text202 rich-text-root"
+                        ><span
+                          >Removing irrelevant HTTP headers helps reduce the
+                          request to its simplest form, allowing Tom to provide
+                          clear reproduction steps. </span
+                        ><span> </span><br /></p
+                      ><div class="outpost24-case-study-container46"
+                        ><div class="outpost24-case-study-left-quote8"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-left-orange.svg"
+                            class="outpost24-case-study-image28" /></div
+                        ><div class="outpost24-case-study-container47"
+                          ><p class="outpost24-case-study-text206"
+                            >The new ‘hide uninteresting headers’ option is
+                            great for that, especially now that we're able to
+                            customize the list to include our own headers.</p
+                          ></div
+                        ><div class="outpost24-case-study-right-quote8"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-right-orange%201.svg"
+                            class="outpost24-case-study-image29" /></div></div
+                      ><p class="outpost24-case-study-text207 rich-text-root"
+                        ><span
+                          >Alongside the simplified requests from Repeater. Tom
+                          uses evidence provided by the Burp Scanner to
+                          highlight the parameter request. </span
+                        ><span> </span><br /></p
+                      ><div class="outpost24-case-study-container48"
+                        ><div class="outpost24-case-study-left-quote9"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-left-orange.svg"
+                            class="outpost24-case-study-image30" /></div
+                        ><div class="outpost24-case-study-container49"
+                          ><p class="outpost24-case-study-text211"
+                            >Rather than me having to enter all that data
+                            manually and describe which parameter is affected
+                            and how, Burp is very good at saying 'it's this
+                            parameter, and here is the evidence.’</p
+                          ></div
+                        ><div class="outpost24-case-study-right-quote9"
+                          ><img
+                            alt="image"
+                            src="../public/ps-quote-right-orange%201.svg"
+                            class="outpost24-case-study-image31" /></div></div
+                      ><p class="outpost24-case-study-text212 rich-text-root"
+                        ><span>Using the range of </span
+                        ><a href="https://portswigger.net/burp/pro/features"
+                          >tools</a
+                        ><span> and </span
+                        ><a href="https://portswigger.net/bappstore"
+                          >extensions</a
+                        ><span>
+                          within Burp Suite Professional allows Tom to
+                          streamline all phases of his workflow, ensuring
+                          comprehensive testing in every client engagement. </span
+                        ><span> </span><br /></p></div
+                    ><div id="section-7"></div
+                    ><div class="outpost24-case-study-section7"
+                      ><h2 class="outpost24-case-study-text218"
+                        >Focus on the vulnerabilities that matter most </h2
+                      ><p class="outpost24-case-study-text219 rich-text-root"
+                        ><span
+                          >Without Burp Suite, Tom would face time-consuming
+                          manual workflows, risk missing critical
+                          vulnerabilities, and deliver less actionable reports
+                          for his clients. </span
+                        ><br /><br /><span
+                          >Burp Suite Professional is indispensable in Tom’s
+                          workflow. From the Scanner, to Proxy, Repeater, and
+                          more - Burp enables him to focus on finding the
+                          vulnerabilities that matter most.</span
+                        ><br /><br /><span
+                          >Join over 80,000 security professionals like Tom
+                          using Burp Suite Professional. </span
+                        ><a href="https://portswigger.net/burp/pro/trial"
+                          >Request a fully-featured free trial</a
+                        ><span>
+                          of the web security tester's toolkit of choice. </span
+                        ><br /></p
+                      ><div class="outpost24-case-study-container50"
+                        ><a
+                          href="https://portswigger.net/burp/pro/trial"
+                          class="outpost24-case-study-button button"
+                          ><span
+                            buttontext="TQ_TH6-S_dqix"
+                            class="outpost24-case-study-text229"
+                            >TRY FOR FREE</span
+                          ></a
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div class="outpost24-case-study-footer1"
+          ><div class="outpost24-case-study-container51"
+            ><div class="outpost24-case-study-footer2"
+              ><div class="outpost24-case-study-container52"
+                ><div class="outpost24-case-study-container53"
+                  ><div class="outpost24-case-study-section12"
+                    ><div class="outpost24-case-study-container54"
+                      ><footer-column-title-wrapper
+                        class="footer-column-title-wrapper"
+                        rootclassname="footer-column-titleundefined"
+                        ><!--FooterColumnTitle component--><div
+                          class="footer-column-title-container footer-column-titleroot-class-name216"
+                          ><p class="footer-column-title-text"
+                            ><span>Burp Suite</span></p
+                          ></div
+                        ></footer-column-title-wrapper
+                      ><a
+                        href="https://portswigger.net/burp/vulnerability-scanner"
+                        class="outpost24-case-study-link28"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text230 Footer"
+                          >Web vulnerability scanner</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/burp"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="outpost24-case-study-link29"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text231 Footer"
+                          >Burp Suite Editions</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/burp/releases"
+                        class="outpost24-case-study-link30"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text232 Footer"
+                          >Release Notes</span
+                        ></a
+                      ></div
+                    ><div class="outpost24-case-study-container55"
+                      ><footer-column-title-wrapper-68va
+                        class="footer-column-title-wrapper-68va"
+                        rootclassname="footer-column-titleundefined"
+                        ><!--FooterColumnTitle component--><div
+                          class="footer-column-title-container1 footer-column-titleroot-class-name217"
+                          ><p class="footer-column-title-text1"
+                            ><span>Vulnerabilities</span></p
+                          ></div
+                        ></footer-column-title-wrapper-68va
+                      ><a
+                        href="https://portswigger.net/web-security/cross-site-scripting"
+                        class="outpost24-case-study-link31"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text233 Footer"
+                          >Cross-site scripting (XSS)</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/web-security/sql-injection"
+                        class="outpost24-case-study-link32"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text234 Footer"
+                          >SQL injection</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/web-security/csrf"
+                        class="outpost24-case-study-link33"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text235 Footer"
+                          >Cross-site request forgery</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/web-security/xxe"
+                        class="outpost24-case-study-link34"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text236 Footer"
+                          >XML external entity injection</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/web-security/file-path-traversal"
+                        class="outpost24-case-study-link35"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text237 Footer"
+                          >Directory traversal</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/web-security/ssrf"
+                        class="outpost24-case-study-link36"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text238 Footer"
+                          >Server-side request forgery</span
+                        ></a
+                      ></div
+                    ></div
+                  ><div class="outpost24-case-study-section22"
+                    ><div class="outpost24-case-study-container56"
+                      ><footer-column-title-wrapper-sc9k
+                        class="footer-column-title-wrapper-sc9k"
+                        rootclassname="footer-column-titleundefined"
+                        ><!--FooterColumnTitle component--><div
+                          class="footer-column-title-container2 footer-column-titleroot-class-name218"
+                          ><p class="footer-column-title-text2"
+                            ><span>Customers</span></p
+                          ></div
+                        ></footer-column-title-wrapper-sc9k
+                      ><a
+                        href="https://portswigger.net/organizations"
+                        class="outpost24-case-study-link37"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text239 Footer"
+                          >Organizations</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/testers"
+                        class="outpost24-case-study-link38"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text240 Footer"
+                          >Testers</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/developers"
+                        class="outpost24-case-study-link39"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text241 Footer"
+                          >Developers</span
+                        ></a
+                      ></div
+                    ><div class="outpost24-case-study-container57"
+                      ><footer-column-title-wrapper-q8v7
+                        class="footer-column-title-wrapper-q8v7"
+                        rootclassname="footer-column-titleundefined"
+                        ><!--FooterColumnTitle component--><div
+                          class="footer-column-title-container3 footer-column-titleroot-class-name219"
+                          ><p class="footer-column-title-text3"
+                            ><span>Company</span></p
+                          ></div
+                        ></footer-column-title-wrapper-q8v7
+                      ><a
+                        href="https://portswigger.net/about"
+                        class="outpost24-case-study-link40"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text242 Footer"
+                          >About</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/careers"
+                        class="outpost24-case-study-link41"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text243 Footer"
+                          >Careers</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/about/contact"
+                        class="outpost24-case-study-link42"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text244 Footer"
+                          >Contact</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/legal"
+                        class="outpost24-case-study-link43"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text245 Footer"
+                          >Legal</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/privacy"
+                        class="outpost24-case-study-link44"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text246 Footer"
+                          >Privacy Notice</span
+                        ></a
+                      ></div
+                    ></div
+                  ><div class="outpost24-case-study-section32"
+                    ><div class="outpost24-case-study-container58"
+                      ><footer-column-title-wrapper-rxn4
+                        class="footer-column-title-wrapper-rxn4"
+                        rootclassname="footer-column-titleundefined"
+                        ><!--FooterColumnTitle component--><div
+                          class="footer-column-title-container4 footer-column-titleroot-class-name220"
+                          ><p class="footer-column-title-text4"
+                            ><span>Insights</span></p
+                          ></div
+                        ></footer-column-title-wrapper-rxn4
+                      ><a
+                        href="https://portswigger.net/web-security"
+                        class="outpost24-case-study-link45"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text247 Footer"
+                          >Web Security Academy</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/blog"
+                        class="outpost24-case-study-link46"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text248 Footer"
+                          >Blog</span
+                        ></a
+                      ><a
+                        href="https://portswigger.net/research"
+                        class="outpost24-case-study-link47"
+                        ><span
+                          href="https://play.teleporthq.io/static/svg/default-img.svg"
+                          class="outpost24-case-study-text249 Footer"
+                          >Research</span
+                        ></a
+                      ></div
+                    ><div class="outpost24-case-study-container59"
+                      ><img
+                        alt="image"
+                        src="../public/external/portswigger-logo1.svg"
+                        class="outpost24-case-study-image32"
+                      /><twitter-button-wrapper
+                        class="outpost24-case-study-component7"
+                        rootclassname="twitter-buttonundefined"
+                        ><!--TwitterButton component--><div
+                          class="twitter-button-container twitter-buttonroot-class-name41"
+                          ><div
+                            href="https://twitter.com/Burp_Suite"
+                            class="twitter-button-frame5622"
+                            ><div class="twitter-button-frame5626"
+                              ><img
+                                alt="TwitterandXlogossvg14713"
+                                src="../public/external/twitterandxlogossvg14713-0pok-200h.png"
+                                class="twitter-button-twitterand-xlogossvg1"
+                              /><span class="twitter-button-text"
+                                ><span>Follow us</span></span
+                              ></div
+                            ></div
+                          ></div
+                        ></twitter-button-wrapper
+                      ><p class="outpost24-case-study-text250 Footer"
+                        >© 2024 PortSwigger Ltd.</p
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ></div
+      ></div
+    >
+    <script>
+      (function(window, document, dataLayerName, id) {
+          window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});
+          var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+          function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+          var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+          stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+          var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),tags.nonce="@Html.Raw(Context.GetNonce())",isStgDebug&&qP.push("stg_debug");
+          var qPString=qP.length>0?("?"+qP.join("&")):"";
+          tags.async=!0,tags.src="https://ps.containers.piwik.pro/"+id+".js"+qPString,
+          scripts.parentNode.insertBefore(tags,scripts);
+          !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){
+          var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+          })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');</script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

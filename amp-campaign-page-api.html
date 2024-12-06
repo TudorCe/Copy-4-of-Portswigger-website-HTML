@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Amp-campaign-page-API - Copy 4 of Portswigger website</title
+    ><meta
+      property="og:title"
+      content="Amp-campaign-page-API - Copy 4 of Portswigger website"
+    /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 300vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link
+      rel="preload"
+      href="/mega-nav/images/mega-nav-portswigger-logo.svg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-main/ps-icons.woff?l1la2n"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/content/fonts/ps-icons-small/ps-icons-small.woff?td2uot"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" href="/mega-nav/meganav.css" as="style" />
+
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <script>
+      (function(window, document, dataLayerName, id) {
+      function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+      var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+      stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+      var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");
+      var qPString=qP.length>0?("?"+qP.join("&")):"";
+      document.write('<nonce-script src="https://ps.containers.piwik.pro/'+id+'.sync.js' + qPString + '" nonce="NIFdcp1UaO0OFJv1ewzs2Putqt1LcUl0"></' + 'nonce-script>');
+      })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');
+      });
+    </script></head
+  >
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./amp-campaign-page-api.css" rel="stylesheet" /><div
+        class="amp-campaign-page-api-container10"
+        ><div class="amp-campaign-page-api-container11"></div
+        ><minimal-header-wrapper
+          class="minimal-header-wrapper"
+          rootclassname="minimal-headerundefined"
+          ><!--MinimalHeader component--><div
+            class="minimal-header-container minimal-headerroot-class-name"
+            ><a href="http://portswigger.net" class="minimal-header-link"
+              ><img
+                alt="image"
+                src="public/portswigger-dark-logo.svg"
+                class="minimal-header-image" /></a></div></minimal-header-wrapper
+        ><text-header-new-wrapper
+          class="text-header-new-wrapper"
+          rootclassname="text-header-ne-wundefined"
+          ><!--TextHeaderNEW component--><div
+            class="text-header-new-container1 text-header-ne-wroot-class-name"
+            ><div class="text-header-new-container2"
+              ><div class="text-header-new-container3"
+                ><span class="text-header-new-text10 BodyRegularBold"
+                  ><fragment class="text-header-new-fragment5"
+                    ><span class="text-header-new-text20"
+                      >New feature</span
+                    ></fragment
+                  ></span
+                ><h1 class="text-header-new-text11 Desktop-Display1"
+                  ><fragment class="amp-campaign-page-api-fragment10"
+                    ><span class="amp-campaign-page-api-text10"
+                      ><span>Say hello to </span
+                      ><span class="amp-campaign-page-api-text12"
+                        >enhanced API scanning </span
+                      ><span class="amp-campaign-page-api-text13">in</span
+                      ><span> Burp Suite. </span><br /></span></fragment></h1
+                ><span class="text-header-new-text12 Desktop-Heading4Light"
+                  ><span
+                    >APIs are a critical function of modern web applications -
+                    but securing them is a huge challenge. Level up your API
+                    security with our enhanced scanning features.
+                  </span></span
+                ><div class="text-header-new-container4"
+                  ><a
+                    href="http://portswigger.net"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="text-header-new-button1 button"
+                    ><span class="text-header-new-text13"
+                      ><fragment class="text-header-new-fragment1"
+                        ><span class="text-header-new-text16"
+                          >This is a primary button</span
+                        ></fragment
+                      ></span
+                    ><img
+                      id=""
+                      alt="ChevronRightI2321"
+                      src="public/external/chevronrighti2321-9hoy.svg"
+                      class="text-header-new-chevron-right1" /></a
+                  ><a
+                    href="https://www.teleporthq.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="text-header-new-button2 button"
+                    ><span class="text-header-new-text14"
+                      ><fragment class="amp-campaign-page-api-fragment11"
+                        ><span class="amp-campaign-page-api-text16"
+                          >This is a secondary button</span
+                        ></fragment
+                      ></span
+                    ><img
+                      id=""
+                      alt="ChevronRightI2321"
+                      src="public/external/chevronrighti2321-9hoy.svg"
+                      class="text-header-new-chevron-right2" /></a
+                  ><a
+                    href="https://www.teleporthq.io"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="text-header-new-button3 button"
+                    ><span class="text-header-new-text15"
+                      ><fragment class="amp-campaign-page-api-fragment12"
+                        ><span class="amp-campaign-page-api-text17"
+                          >This is a secondary button</span
+                        ></fragment
+                      ></span
+                    ><img
+                      alt="image"
+                      src="public/chevron%20right-grey-200h.png"
+                      class="text-header-new-image" /></a></div></div></div></div></text-header-new-wrapper
+        ><div class="amp-campaign-page-api-container12"
+          ><img
+            alt="image"
+            src="public/nba.svg"
+            class="amp-campaign-page-api-image1" /><img
+            alt="Autotrader"
+            src="54228cb8-8312-4538-b32d-ae6c682acd86"
+            class="amp-campaign-page-api-image2" /><img
+            alt="image"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+            class="amp-campaign-page-api-image3" /><img
+            alt="image"
+            src="fe7c9881-07ec-4a6d-9f2a-a97a24db082e"
+            class="amp-campaign-page-api-image4" /><img
+            alt="NASA"
+            src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+            class="amp-campaign-page-api-image5" /></div
+        ><img-right-wrapper
+          class="img-right-wrapper"
+          rootclassname="img-rightundefined"
+          ><!--ImgRight component--><div
+            class="img-right-container1 img-rightroot-class-name1"
+            ><div class="img-right-container2"
+              ><div class="img-right-container3"
+                ><h2 class="img-right-text1 Desktop-Heading1"
+                  ><fragment class="amp-campaign-page-api-fragment14"
+                    ><span class="amp-campaign-page-api-text19"
+                      ><span>Test for vulnerabilities </span
+                      ><span class="amp-campaign-page-api-text21"
+                        >without having to host definition files</span
+                      ></span
+                    ></fragment
+                  ></h2
+                ><span class="img-right-text2 HeadingHeading6Light"
+                  ><fragment class="amp-campaign-page-api-fragment13"
+                    ><span class="amp-campaign-page-api-text18"
+                      >Upload API definition files directly to Burp Suite. Enjoy
+                      quicker, hassle-free scanning that scales effortlessly.
+                      Provide an existing URL, or upload the definition file
+                      directly - it’s your choice.</span
+                    ></fragment
+                  ></span
+                ></div
+              ><img
+                alt=" Test for vulnerabilities without having to host definition files"
+                src="public/bsee-api-dashboard.svg"
+                class="img-right-image" /></div></div></img-right-wrapper
+        ><img-left-small-wrapper
+          class="img-left-small-wrapper"
+          rootclassname="img-left-smallundefined"
+          ><!--ImgLeftSmall component--><div
+            class="img-left-small-container1 img-left-smallroot-class-name"
+            ><div class="img-left-small-container2"
+              ><img
+                alt="Easily find hosted APIs left accessible to attackers"
+                src="public/radar%20artwork%20(3).svg"
+                class="img-left-small-image"
+              /><div class="img-left-small-container3"
+                ><span class="img-left-small-text1 BodyRegularBold"
+                  ><fragment class="amp-campaign-page-api-fragment15"
+                    ><span class="amp-campaign-page-api-text22"
+                      >Identify accessible definition files</span
+                    ></fragment
+                  ></span
+                ><h2 class="Desktop-Heading1 img-left-small-text2"
+                  ><fragment class="amp-campaign-page-api-fragment17"
+                    ><span class="amp-campaign-page-api-text24"
+                      ><span class="amp-campaign-page-api-text25"
+                        >Easily find hosted APIs</span
+                      ><span> left accessible to attackers</span></span
+                    ></fragment
+                  ></h2
+                ><span class="HeadingHeading6Light img-left-small-text3"
+                  ><fragment class="amp-campaign-page-api-fragment16"
+                    ><span class="amp-campaign-page-api-text23"
+                      >Perform recurring dynamic (DAST) scans across thousands
+                      of sites and APIs.Intuitive dashboards help to identify
+                      trends over time. Get scan reports by email, export to
+                      other tools, and produce reports for individual compliance
+                      standards.</span
+                    ></fragment
+                  ></span
+                ></div
+              ></div
+            ></div
+          ></img-left-small-wrapper
+        ><img-right-small-wrapper
+          class="img-right-small-wrapper"
+          rootclassname="img-right-smallundefined"
+          ><!--ImgRightSmall component--><div
+            class="img-right-small-container1 img-right-smallroot-class-name"
+            ><div class="img-right-small-container2"
+              ><div class="img-right-small-container3"
+                ><span class="img-right-small-text1 BodyRegularBold"
+                  ><fragment class="amp-campaign-page-api-fragment18"
+                    ><span class="amp-campaign-page-api-text27"
+                      >HTTP endpoints</span
+                    ></fragment
+                  ></span
+                ><h2 class="img-right-small-text2 Desktop-Heading1"
+                  ><fragment class="amp-campaign-page-api-fragment20"
+                    ><span class="amp-campaign-page-api-text29"
+                      ><span class="amp-campaign-page-api-text30"
+                        >Test a wider range</span
+                      ><span class="amp-campaign-page-api-text31">
+                        of OpenAPI Specification endpoints</span
+                      ></span
+                    ></fragment
+                  ></h2
+                ><span class="HeadingHeading6Light img-right-small-text3"
+                  ><fragment class="amp-campaign-page-api-fragment19"
+                    ><span class="amp-campaign-page-api-text28"
+                      >Include HTTP headers when crawling your APIs. Scan a
+                      wider range of OAS endpoints. More comprehensive scans.
+                      More vulnerabilities identified.</span
+                    ></fragment
+                  ></span
+                ></div
+              ><img
+                alt="Test a wider range of OpenAPI Specification endpoints"
+                src="public/headersandcookies-1400w.png"
+                class="img-right-small-image" /></div></div></img-right-small-wrapper
+        ><img-left-alternative-small-wrapper
+          class="img-left-alternative-small-wrapper"
+          rootclassname="img-left-alternative-smallundefined"
+          ><!--ImgLeftAlternativeSmall component--><div
+            class="img-left-alternative-small-container1 img-left-alternative-smallroot-class-name"
+            ><div class="img-left-alternative-small-container2"
+              ><img
+                alt="image"
+                src="public/endpoints-globe-1400w.png"
+                class="img-left-alternative-small-image"
+              /><div class="img-left-alternative-small-container3"
+                ><span class="img-left-alternative-small-text1 BodyRegularBold"
+                  ><fragment class="amp-campaign-page-api-fragment21"
+                    ><span class="amp-campaign-page-api-text32"
+                      >Authentication</span
+                    ></fragment
+                  ></span
+                ><h2 class="img-left-alternative-small-text2 Desktop-Heading1"
+                  ><fragment class="amp-campaign-page-api-fragment23"
+                    ><span class="amp-campaign-page-api-text34"
+                      ><span>Scan APIs that require </span
+                      ><span class="amp-campaign-page-api-text36"
+                        >endpoint configuration</span
+                      ></span
+                    ></fragment
+                  ></h2
+                ><span
+                  class="HeadingHeading6Light img-left-alternative-small-text3"
+                  ><fragment class="amp-campaign-page-api-fragment22"
+                    ><span class="amp-campaign-page-api-text33"
+                      >Scan APIs that require authentication seamlessly. Burp
+                      Suite Enterprise Edition now allows the scanner to bypass
+                      some authentication points without pausing scans.</span
+                    ></fragment
+                  ></span
+                ></div
+              ></div
+            ></div
+          ></img-left-alternative-small-wrapper
+        ><quotation-small-dark-mode-wrapper
+          class="quotation-small-dark-mode-wrapper"
+          rootclassname="quotation-small-dark-modeundefined"
+          ><!--QuotationSmallDarkMode component--><div
+            class="quotation-small-dark-mode-container quotation-small-dark-moderoot-class-name"
+            ><div class="quotation-small-dark-mode-frame5519"
+              ><h2 class="quotation-small-dark-mode-text1 Desktop-Heading3"
+                ><span
+                  >“Is there anything better than Burp Suite Professional by
+                  @PortSwigger? I have some tools like it but I have yet to find
+                  anything as good”</span
+                ></h2
+              ><span
+                class="quotation-small-dark-mode-text2 HeadingHeading5Light"
+                ><span
+                  >Source: AppSec Manager @ a Burp Suite Enterprise Edition
+                  customer</span
+                ></span
+              ></div
+            ></div
+          ></quotation-small-dark-mode-wrapper
+        ><img
+          alt="image"
+          src="public/jagged-edge-200h.png"
+          class="amp-campaign-page-api-image6" /><stats-x2-wrapper
+          class="stats-x2-wrapper"
+          rootclassname="stats-x2undefined"
+          ><!--StatsX2 component--><div
+            class="stats-x2-container1 stats-x2root-class-name2"
+            ><div class="stats-x2-container2"
+              ><h2 class="stats-x2-text10 Desktop-Heading1"
+                ><fragment class="amp-campaign-page-api-fragment25"
+                  ><span class="amp-campaign-page-api-text38"
+                    >The API security struggle</span
+                  ></fragment
+                ></h2
+              ><span class="stats-x2-text11 HeadingHeading6Light"
+                ><fragment class="amp-campaign-page-api-fragment24"
+                  ><span class="amp-campaign-page-api-text37"
+                    >Securing APIs remains one of the biggest challenges for
+                    AppSec teams.</span
+                  ></fragment
+                ></span
+              ><div class="stats-x2-container3"
+                ><div class="stats-x2-container4"
+                  ><h2 class="stats-x2-text12 Desktop-Display1"
+                    ><fragment class="amp-campaign-page-api-fragment28"
+                      ><span class="amp-campaign-page-api-text41"
+                        >26</span
+                      ></fragment
+                    ></h2
+                  ><span class="stats-x2-text13 HeadingHeading6Light"
+                    ><fragment class="amp-campaign-page-api-fragment26"
+                      ><span class="amp-campaign-page-api-text39"
+                        >APIs per application</span
+                      ></fragment
+                    ></span
+                  ></div
+                ><div class="stats-x2-container5"
+                  ><h2 class="stats-x2-text14 Desktop-Display1"
+                    ><fragment class="amp-campaign-page-api-fragment29"
+                      ><span class="amp-campaign-page-api-text42"
+                        >&lt;50%</span
+                      ></fragment
+                    ></h2
+                  ><span class="stats-x2-text15 HeadingHeading6Light"
+                    ><fragment class="amp-campaign-page-api-fragment27"
+                      ><span class="amp-campaign-page-api-text40"
+                        >have dedicated API testing tools</span
+                      ></fragment
+                    ></span
+                  ></div
+                ><div
+                  class="stats-x2-container6"
+                ></div></div></div></div></stats-x2-wrapper
+        ><div class="amp-campaign-page-api-container13"
+          ><h2 class="amp-campaign-page-api-text43 Desktop-Heading1"
+            ><span class="amp-campaign-page-api-text44">Learn more about</span
+            ><span> </span
+            ><span class="amp-campaign-page-api-text46">API scanning</span
+            ><span> </span
+            ><span class="amp-campaign-page-api-text48">in Burp Suite</span></h2
+          ><div class="amp-campaign-page-api-container14"
+            ><div class="amp-campaign-page-api-container15"
+              ><div class="amp-campaign-page-api-frame55121"
+                ><img
+                  alt="image"
+                  src="public/fd8e-article-api_article-300h.png"
+                  class="amp-campaign-page-api-image7" /><h4
+                  class="amp-campaign-page-api-text49"
+                  >Unlock API Scanning</h4
+                ><span class="amp-campaign-page-api-text50 BodyLarge"
+                  >Read our blog to learn more about API scanning in Burp</span
+                ><div class="amp-campaign-page-api-container16"
+                  ><a
+                    href="https://portswigger.net/blog/unlock-enhanced-api-scanning-with-burp-suite"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="amp-campaign-page-api-link1"
+                    ><h6 class="amp-campaign-page-api-text51 BodyLargeBold"
+                      >Read more</h6
+                    ></a
+                  ><img
+                    alt="image"
+                    src="public/chevron%20right-orange.svg"
+                    class="amp-campaign-page-api-image8" /></div></div></div
+            ><div class="amp-campaign-page-api-container17"
+              ><div class="amp-campaign-page-api-frame55122"
+                ><img
+                  alt="image"
+                  src="public/scanner-card-landscape-300h.jpg"
+                  class="amp-campaign-page-api-image9" /><h4
+                  class="amp-campaign-page-api-text52"
+                  >API Security testing</h4
+                ><span class="amp-campaign-page-api-text53 BodyLarge"
+                  >Learn about the scanner powering Burp Suite</span
+                ><div class="amp-campaign-page-api-container18"
+                  ><a
+                    href="https://portswigger.net/burp/vulnerability-scanner/api-security-testing"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="amp-campaign-page-api-link2"
+                    ><h6 class="amp-campaign-page-api-text54 BodyLargeBold"
+                      >Learn more</h6
+                    ></a
+                  ><img
+                    alt="ChevronRightI2354"
+                    src="public/external/chevronrighti2354-ea9k.svg"
+                    class="amp-campaign-page-api-chevron-right1" /></div></div></div></div
+          ><div class="amp-campaign-page-api-container19"
+            ><div class="amp-campaign-page-api-container20"
+              ><div class="amp-campaign-page-api-frame55123"
+                ><h4 class="amp-campaign-page-api-text55"
+                  ><span class="Desktop-Heading4"
+                    >Requirements for API scanning</span
+                  ><br /></h4
+                ><span class="amp-campaign-page-api-text58 BodyLarge"
+                  >Find out how to scan APIs in our supp</span
+                ><a
+                  href="https://portswigger.net/burp/documentation/enterprise/user-guide/working-with-sites/add-new-sites/add-new-apis"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="amp-campaign-page-api-link3"
+                  ><div class="amp-campaign-page-api-container21"
+                    ><span class="amp-campaign-page-api-text59"
+                      >Find out more</span
+                    ><img
+                      alt="ChevronRightI175"
+                      src="public/external/chevronrighti175-32xa1.svg"
+                      class="amp-campaign-page-api-chevron-right2" /></div></a></div></div
+            ><div class="amp-campaign-page-api-container22"
+              ><div class="amp-campaign-page-api-frame55124"
+                ><h4 class="amp-campaign-page-api-text60"
+                  ><span class="Desktop-Heading4"
+                    >API scanning in Burp Suite Enterprise Edition</span
+                  ><br /></h4
+                ><span class="amp-campaign-page-api-text63 BodyLarge"
+                  >Learn more about adding API definitions to your scans</span
+                ><a
+                  href="https://portswigger.net/burp/documentation/enterprise/user-guide/working-with-sites/add-new-sites/add-new-apis"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="amp-campaign-page-api-link4"
+                  ><div class="amp-campaign-page-api-container23"
+                    ><span class="amp-campaign-page-api-text64">Learn more</span
+                    ><img
+                      alt="ChevronRightI175"
+                      src="public/external/chevronrighti175-32xa1.svg"
+                      class="amp-campaign-page-api-chevron-right3" /></div></a></div></div
+            ><div class="amp-campaign-page-api-container24"
+              ><div class="amp-campaign-page-api-frame55125"
+                ><h4 class="amp-campaign-page-api-text65"
+                  ><span class="Desktop-Heading4"
+                    >Scanning APIs in Burp Suite Professional</span
+                  ><br /></h4
+                ><span class="amp-campaign-page-api-text68 BodyLarge"
+                  >Read more on setting up API scans in Burp Suite
+                  Professional</span
+                ><a
+                  href="https://portswigger.net/burp/documentation/desktop/automated-scanning/api-scans"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="amp-campaign-page-api-link5"
+                  ><div class="amp-campaign-page-api-container25"
+                    ><span class="amp-campaign-page-api-text69">Read more</span
+                    ><img
+                      alt="ChevronRightI175"
+                      src="public/external/chevronrighti175-32xa1.svg"
+                      class="amp-campaign-page-api-chevron-right4" /></div></a></div></div
+            ><div class="amp-campaign-page-api-container26"
+              ><div class="amp-campaign-page-api-frame55126"
+                ><h4 class="amp-campaign-page-api-text70"
+                  ><span class="Desktop-Heading4"
+                    >Ready to start scanning APIs?</span
+                  ><br /></h4
+                ><span class="amp-campaign-page-api-text73 BodyLarge"
+                  >book a call with one of our Enterprise experts now</span
+                ><a
+                  href="https://meetings.hubspot.com/jamie-mackay/api-rb-jul-24?uuid=aadd8cac-6fa0-4634-bab4-717f86dc7e21"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="amp-campaign-page-api-link6"
+                  ><div class="amp-campaign-page-api-container27"
+                    ><span class="amp-campaign-page-api-text74"
+                      >Book a call</span
+                    ><img
+                      alt="ChevronRightI175"
+                      src="public/external/chevronrighti175-32xa1.svg"
+                      class="amp-campaign-page-api-chevron-right5" /></div></a></div></div></div
+          ><page-footer-cta-wrapper
+            class="page-footer-cta-wrapper"
+            rootclassname="page-footer-ct-aundefined"
+            ><!--PageFooterCTA component--><div
+              class="page-footer-cta-container1 page-footer-ct-aroot-class-name1"
+              ><div class="page-footer-cta-container2"
+                ><div class="page-footer-cta-container3"
+                  ><h2 class="page-footer-cta-text1 Desktop-Heading1"
+                    ><fragment class="amp-campaign-page-api-fragment30"
+                      ><span class="amp-campaign-page-api-text75"
+                        >Level up your API security with Burp Suite Enterprise
+                        Edition</span
+                      ></fragment
+                    ></h2
+                  ><span class="page-footer-cta-text2 BodyLarge"
+                    ><span
+                      >Ready to start scanning your APIs? Book a call with one
+                      of our Enterprise experts.</span
+                    ></span
+                  ><div class="page-footer-cta-container4"
+                    ><a
+                      href="https://www.teleporthq.io"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="page-footer-cta-button button"
+                      ><span class="page-footer-cta-text3"
+                        ><fragment class="amp-campaign-page-api-fragment31"
+                          ><span class="amp-campaign-page-api-text76"
+                            >Book a call</span
+                          ></fragment
+                        ></span
+                      ><img
+                        id=""
+                        alt="ChevronRightI2321"
+                        src="public/external/chevronrighti2321-9hoy.svg"
+                        class="page-footer-cta-chevron-right" /></a></div></div></div></div></page-footer-cta-wrapper></div></div
+    ></div>
+    <script>
+      (function(window, document, dataLayerName, id) {
+          window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});
+          var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+          function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=";expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+          var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");
+          stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+          var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),tags.nonce="@Html.Raw(Context.GetNonce())",isStgDebug&&qP.push("stg_debug");
+          var qPString=qP.length>0?("?"+qP.join("&")):"";
+          tags.async=!0,tags.src="https://ps.containers.piwik.pro/"+id+".js"+qPString,
+          scripts.parentNode.insertBefore(tags,scripts);
+          !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){
+          var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+          })(window, document, 'dataLayer', '287552c2-4917-42e0-8982-ba994a2a73d7');</script
+    ><script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

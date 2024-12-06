@@ -1,0 +1,222 @@
+.mega-nav2-container1 {
+  width: 100%;
+  height: 134px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: var(--dl-color-default-orange1);
+  border-style: solid;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom-width: 3px;
+}
+.mega-nav2-container3 {
+  width: 100%;
+  display: flex;
+  min-width: 1140px;
+  align-items: center;
+  justify-content: space-between;
+}
+.mega-nav2-link {
+  display: contents;
+}
+.mega-nav2-image {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.mega-nav2-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.mega-nav2-header-right {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  min-height: 113px;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mega-nav2-login-buttons {
+  width: 200px;
+  display: flex;
+  min-height: 80px;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
+}
+.mega-nav2-button {
+  gap: 8px;
+  width: auto;
+  height: 35px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Arial;
+  font-weight: 400 !important;
+  border-width: 0px;
+  font-stretch: normal;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  padding-right: 20px;
+  letter-spacing: 0em;
+  justify-content: center;
+  background-color: rgba(255, 102, 51, 1);
+}
+.mega-nav2-text10 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-theme-secondary1);
+  font-family: "sans-serif";
+  font-weight: 400;
+  line-height: 1.5;
+}
+.mega-nav2-mega-nav {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  min-height: 35px;
+  text-align: right;
+  align-items: flex-end;
+  justify-content: center;
+}
+.mega-nav2-products1 {
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+  border-color: var(--dl-color-default-orange1);
+  border-width: 0px;
+  border-right-width: 1px;
+}
+.mega-nav2-products-label {
+  line-height: 1.4;
+}
+.mega-nav2-icon10 {
+  right: 13px;
+  bottom: 0px;
+  position: absolute;
+  align-self: flex-end;
+  line-height: 24px;
+}
+.mega-nav2-solutions1 {
+  display: flex;
+  position: relative;
+  border-color: var(--dl-color-default-orange1);
+  border-width: 0px;
+  border-right-width: 1px;
+}
+.mega-nav2-solutions-label {
+  line-height: 1.4;
+}
+.mega-nav2-icon12 {
+  right: 13px;
+  bottom: 0px;
+  position: absolute;
+  align-self: flex-end;
+  line-height: 24px;
+}
+.mega-nav2-research1 {
+  border-color: var(--dl-color-default-orange1);
+  border-width: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-right-width: 1px;
+}
+.mega-nav2-research2 {
+  line-height: 1.4;
+}
+.mega-nav2-academy1 {
+  border-color: var(--dl-color-default-orange1);
+  border-width: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-right-width: 1px;
+}
+.mega-nav2-academy2 {
+  line-height: 1.4;
+}
+.mega-nav2-support1 {
+  display: flex;
+  position: relative;
+  border-color: var(--dl-color-default-orange1);
+  border-width: 0px;
+  border-right-width: 1px;
+}
+.mega-nav2-support-label {
+  line-height: 1.4;
+}
+.mega-nav2-icon14 {
+  right: 13px;
+  bottom: 0px;
+  display: flex;
+  position: absolute;
+  align-self: flex-end;
+  line-height: 24px;
+}
+.mega-nav2-icon16 {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-xsmall);
+  height: 20px;
+  display: flex;
+  align-self: flex-end;
+  line-height: 1.4;
+  margin-left: 15px;
+}
+.mega-nav2-fragment1 {
+  display: contents;
+}
+.mega-nav2-text13 {
+  display: inline-block;
+}
+.mega-nav2-text14 {
+  fill: var(--dl-color-default-white);
+}
+.mega-nav2-fragment2 {
+  display: contents;
+}
+.mega-nav2-text16 {
+  display: inline-block;
+}
+.mega-nav2-fragment3 {
+  display: contents;
+}
+.mega-nav2-text19 {
+  display: inline-block;
+}
+.mega-nav2-fragment4 {
+  display: contents;
+}
+.mega-nav2-text22 {
+  display: inline-block;
+}
+.mega-nav2-fragment5 {
+  display: contents;
+}
+.mega-nav2-text25 {
+  display: inline-block;
+}
+
+@media(max-width: 1536px) {
+  .mega-nav2-image {
+    width: 250px;
+    height: 54x;
+  }
+  .mega-nav2-text14 {
+    fill: var(--dl-color-theme-neutral-dark);
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 0px;
+  }
+}
+@media(max-width: 390px) {
+  .mega-nav2-header-right {
+    width: 100%;
+  }
+}

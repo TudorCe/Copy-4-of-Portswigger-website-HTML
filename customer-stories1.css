@@ -1,0 +1,5971 @@
+.mega-nav-wrapper {
+  display: contents;
+}
+.mega-nav-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.mega-nav-container2 {
+  display: none;
+}
+.mega-nav-container3 {
+  display: contents;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-column-title-wrapper {
+  display: contents;
+}
+.footer-column-title-container {
+  display: flex;
+  position: relative;
+}
+.footer-column-title-text {
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.footer-column-titleroot-class-name {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name1 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name2 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name3 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name4 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name5 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name6 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name7 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name8 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name9 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name10 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name11 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name12 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name13 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name14 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name15 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name16 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name17 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name18 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name19 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name20 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name21 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name22 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name23 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name24 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name25 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name26 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name27 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name28 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name29 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name30 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name31 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name32 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name33 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name34 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name35 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name36 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name37 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name38 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name39 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name40 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name41 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name42 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name43 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name44 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name45 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name46 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name47 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name48 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name49 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name50 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name51 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name52 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name53 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name54 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name55 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name56 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name57 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name58 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name59 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name60 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name61 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name62 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name63 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name64 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name65 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name66 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name67 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name68 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name69 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name70 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name71 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name72 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name73 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name74 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name75 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name76 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name77 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name78 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name79 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name80 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name81 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name82 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name83 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name84 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name85 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name86 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name87 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name88 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name89 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name90 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name91 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name92 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name93 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name94 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name95 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name96 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name97 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name98 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name99 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name100 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name101 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name102 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name103 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name104 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name105 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name106 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name107 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name108 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name109 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name110 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name111 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name112 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name113 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name114 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name115 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name116 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name117 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name118 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name119 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name120 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name121 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name122 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name123 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name124 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name125 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name126 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name127 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name128 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name129 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name130 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name131 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name132 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name133 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name134 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name135 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name136 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name137 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name138 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name139 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name140 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name141 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name142 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name143 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name144 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name145 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name146 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name147 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name148 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name149 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name150 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name151 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name152 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name153 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name154 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name155 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name156 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name157 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name158 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name159 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name160 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name161 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name162 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name163 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name164 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name165 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name166 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name167 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name168 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name169 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name170 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name171 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name172 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name173 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name174 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name175 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name176 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name177 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name178 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name179 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name180 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name181 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name182 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name183 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name184 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name185 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name186 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name187 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name188 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name189 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name190 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name191 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name192 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name193 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name194 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name195 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name196 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name197 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name198 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name199 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name200 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name201 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name202 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name203 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name204 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name205 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name206 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name207 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name208 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name209 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name210 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name211 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name212 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name213 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name214 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name215 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name216 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name217 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name218 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name219 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name220 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name221 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name222 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name223 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name224 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name225 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name226 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name227 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name228 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name229 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name230 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name231 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name232 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name233 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name234 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name235 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+
+.footer-column-title-wrapper-3fe1 {
+  display: contents;
+}
+.footer-column-title-container1 {
+  display: flex;
+  position: relative;
+}
+.footer-column-title-text1 {
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.footer-column-titleroot-class-name {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name1 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name2 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name3 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name4 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name5 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name6 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name7 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name8 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name9 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name10 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name11 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name12 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name13 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name14 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name15 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name16 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name17 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name18 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name19 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name20 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name21 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name22 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name23 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name24 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name25 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name26 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name27 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name28 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name29 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name30 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name31 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name32 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name33 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name34 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name35 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name36 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name37 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name38 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name39 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name40 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name41 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name42 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name43 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name44 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name45 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name46 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name47 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name48 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name49 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name50 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name51 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name52 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name53 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name54 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name55 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name56 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name57 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name58 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name59 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name60 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name61 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name62 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name63 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name64 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name65 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name66 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name67 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name68 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name69 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name70 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name71 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name72 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name73 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name74 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name75 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name76 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name77 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name78 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name79 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name80 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name81 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name82 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name83 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name84 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name85 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name86 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name87 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name88 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name89 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name90 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name91 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name92 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name93 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name94 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name95 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name96 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name97 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name98 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name99 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name100 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name101 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name102 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name103 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name104 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name105 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name106 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name107 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name108 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name109 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name110 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name111 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name112 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name113 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name114 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name115 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name116 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name117 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name118 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name119 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name120 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name121 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name122 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name123 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name124 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name125 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name126 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name127 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name128 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name129 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name130 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name131 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name132 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name133 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name134 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name135 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name136 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name137 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name138 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name139 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name140 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name141 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name142 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name143 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name144 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name145 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name146 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name147 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name148 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name149 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name150 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name151 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name152 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name153 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name154 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name155 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name156 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name157 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name158 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name159 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name160 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name161 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name162 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name163 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name164 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name165 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name166 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name167 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name168 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name169 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name170 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name171 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name172 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name173 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name174 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name175 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name176 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name177 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name178 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name179 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name180 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name181 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name182 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name183 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name184 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name185 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name186 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name187 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name188 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name189 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name190 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name191 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name192 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name193 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name194 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name195 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name196 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name197 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name198 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name199 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name200 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name201 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name202 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name203 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name204 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name205 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name206 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name207 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name208 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name209 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name210 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name211 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name212 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name213 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name214 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name215 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name216 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name217 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name218 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name219 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name220 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name221 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name222 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name223 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name224 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name225 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name226 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name227 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name228 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name229 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name230 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name231 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name232 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name233 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name234 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name235 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+
+.footer-column-title-wrapper-06nn {
+  display: contents;
+}
+.footer-column-title-container2 {
+  display: flex;
+  position: relative;
+}
+.footer-column-title-text2 {
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.footer-column-titleroot-class-name {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name1 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name2 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name3 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name4 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name5 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name6 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name7 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name8 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name9 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name10 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name11 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name12 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name13 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name14 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name15 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name16 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name17 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name18 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name19 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name20 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name21 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name22 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name23 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name24 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name25 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name26 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name27 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name28 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name29 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name30 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name31 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name32 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name33 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name34 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name35 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name36 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name37 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name38 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name39 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name40 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name41 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name42 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name43 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name44 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name45 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name46 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name47 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name48 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name49 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name50 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name51 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name52 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name53 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name54 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name55 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name56 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name57 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name58 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name59 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name60 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name61 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name62 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name63 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name64 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name65 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name66 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name67 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name68 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name69 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name70 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name71 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name72 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name73 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name74 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name75 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name76 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name77 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name78 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name79 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name80 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name81 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name82 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name83 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name84 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name85 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name86 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name87 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name88 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name89 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name90 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name91 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name92 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name93 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name94 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name95 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name96 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name97 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name98 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name99 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name100 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name101 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name102 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name103 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name104 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name105 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name106 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name107 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name108 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name109 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name110 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name111 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name112 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name113 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name114 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name115 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name116 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name117 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name118 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name119 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name120 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name121 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name122 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name123 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name124 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name125 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name126 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name127 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name128 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name129 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name130 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name131 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name132 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name133 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name134 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name135 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name136 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name137 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name138 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name139 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name140 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name141 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name142 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name143 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name144 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name145 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name146 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name147 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name148 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name149 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name150 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name151 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name152 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name153 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name154 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name155 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name156 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name157 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name158 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name159 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name160 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name161 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name162 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name163 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name164 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name165 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name166 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name167 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name168 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name169 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name170 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name171 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name172 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name173 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name174 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name175 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name176 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name177 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name178 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name179 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name180 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name181 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name182 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name183 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name184 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name185 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name186 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name187 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name188 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name189 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name190 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name191 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name192 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name193 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name194 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name195 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name196 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name197 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name198 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name199 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name200 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name201 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name202 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name203 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name204 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name205 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name206 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name207 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name208 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name209 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name210 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name211 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name212 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name213 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name214 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name215 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name216 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name217 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name218 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name219 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name220 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name221 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name222 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name223 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name224 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name225 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name226 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name227 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name228 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name229 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name230 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name231 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name232 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name233 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name234 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name235 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+
+.footer-column-title-wrapper-clzl {
+  display: contents;
+}
+.footer-column-title-container3 {
+  display: flex;
+  position: relative;
+}
+.footer-column-title-text3 {
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.footer-column-titleroot-class-name {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name1 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name2 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name3 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name4 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name5 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name6 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name7 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name8 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name9 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name10 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name11 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name12 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name13 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name14 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name15 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name16 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name17 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name18 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name19 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name20 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name21 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name22 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name23 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name24 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name25 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name26 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name27 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name28 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name29 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name30 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name31 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name32 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name33 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name34 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name35 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name36 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name37 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name38 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name39 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name40 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name41 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name42 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name43 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name44 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name45 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name46 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name47 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name48 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name49 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name50 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name51 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name52 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name53 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name54 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name55 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name56 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name57 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name58 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name59 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name60 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name61 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name62 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name63 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name64 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name65 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name66 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name67 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name68 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name69 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name70 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name71 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name72 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name73 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name74 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name75 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name76 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name77 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name78 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name79 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name80 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name81 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name82 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name83 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name84 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name85 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name86 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name87 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name88 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name89 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name90 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name91 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name92 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name93 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name94 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name95 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name96 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name97 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name98 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name99 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name100 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name101 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name102 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name103 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name104 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name105 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name106 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name107 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name108 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name109 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name110 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name111 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name112 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name113 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name114 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name115 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name116 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name117 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name118 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name119 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name120 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name121 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name122 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name123 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name124 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name125 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name126 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name127 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name128 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name129 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name130 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name131 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name132 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name133 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name134 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name135 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name136 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name137 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name138 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name139 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name140 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name141 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name142 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name143 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name144 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name145 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name146 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name147 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name148 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name149 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name150 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name151 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name152 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name153 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name154 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name155 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name156 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name157 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name158 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name159 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name160 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name161 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name162 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name163 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name164 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name165 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name166 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name167 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name168 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name169 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name170 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name171 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name172 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name173 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name174 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name175 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name176 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name177 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name178 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name179 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name180 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name181 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name182 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name183 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name184 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name185 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name186 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name187 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name188 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name189 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name190 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name191 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name192 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name193 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name194 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name195 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name196 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name197 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name198 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name199 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name200 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name201 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name202 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name203 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name204 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name205 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name206 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name207 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name208 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name209 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name210 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name211 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name212 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name213 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name214 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name215 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name216 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name217 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name218 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name219 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name220 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name221 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name222 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name223 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name224 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name225 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name226 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name227 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name228 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name229 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name230 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name231 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name232 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name233 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name234 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name235 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+
+.footer-column-title-wrapper-zauf {
+  display: contents;
+}
+.footer-column-title-container4 {
+  display: flex;
+  position: relative;
+}
+.footer-column-title-text4 {
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.footer-column-titleroot-class-name {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name1 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name2 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name3 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name4 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name5 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name6 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name7 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name8 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name9 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name10 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name11 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name12 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name13 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name14 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name15 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name16 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name17 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name18 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name19 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name20 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name21 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name22 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name23 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name24 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name25 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name26 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name27 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name28 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name29 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name30 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name31 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name32 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name33 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name34 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name35 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name36 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name37 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name38 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name39 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name40 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name41 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name42 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name43 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name44 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name45 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name46 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name47 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name48 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name49 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name50 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name51 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name52 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name53 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name54 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name55 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name56 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name57 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name58 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name59 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name60 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name61 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name62 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name63 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name64 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name65 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name66 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name67 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name68 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name69 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name70 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name71 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name72 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name73 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name74 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name75 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name76 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name77 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name78 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name79 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name80 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name81 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name82 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name83 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name84 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name85 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name86 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name87 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name88 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name89 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name90 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name91 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name92 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name93 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name94 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name95 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name96 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name97 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name98 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name99 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name100 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name101 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name102 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name103 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name104 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name105 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name106 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name107 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name108 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name109 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name110 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name111 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name112 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name113 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name114 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name115 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name116 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name117 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name118 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name119 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name120 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name121 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name122 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name123 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name124 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name125 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name126 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name127 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name128 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name129 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name130 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name131 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name132 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name133 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name134 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name135 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name136 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name137 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name138 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name139 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name140 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name141 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name142 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name143 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name144 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name145 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name146 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name147 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name148 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name149 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name150 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name151 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name152 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name153 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name154 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name155 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name156 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name157 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name158 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name159 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name160 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name161 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name162 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name163 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name164 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name165 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name166 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name167 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name168 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name169 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name170 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name171 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name172 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name173 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name174 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name175 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name176 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name177 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name178 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name179 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name180 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name181 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name182 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name183 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name184 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name185 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name186 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name187 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name188 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name189 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name190 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name191 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name192 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name193 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name194 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name195 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name196 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name197 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name198 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name199 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name200 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name201 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name202 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name203 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name204 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name205 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name206 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name207 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name208 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name209 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name210 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name211 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name212 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name213 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name214 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name215 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name216 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name217 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name218 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name219 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name220 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name221 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name222 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name223 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name224 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name225 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name226 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name227 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name228 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name229 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name230 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name231 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name232 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name233 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name234 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.footer-column-titleroot-class-name235 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+
+.twitter-button-wrapper {
+  display: contents;
+}
+.twitter-button-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.twitter-button-frame5622 {
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 2px 20px;
+  align-items: center;
+  border-color: rgba(0, 172, 238, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.twitter-button-frame5626 {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.twitter-button-twitterand-xlogossvg1 {
+  width: 18px;
+  height: 14px;
+}
+.twitter-button-text {
+  fill: rgba(0, 172, 238, 1);
+  color: rgba(0, 172, 238, 1);
+  font-size: 14px;
+  font-family: "Arial";
+  line-height: 24px;
+}
+.twitter-buttonroot-class-name {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name6 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name7 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name8 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name9 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name10 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name11 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name12 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name13 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name14 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name15 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name16 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name17 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name18 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name19 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name20 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name21 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name22 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name23 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name24 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name25 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name26 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name27 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name28 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name29 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name30 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name31 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name32 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name33 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name34 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name35 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name36 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name37 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name38 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name39 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name40 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name41 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name42 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name43 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.twitter-buttonroot-class-name44 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.customer-stories-donotuse-container10 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.customer-stories-donotuse-head {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  background-color: var(--dl-color-default-white);
+}
+.customer-stories-donotuse-container11 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-height: 700px;
+  min-height: 320px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.customer-stories-donotuse-container12 {
+  gap: 3rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 1140px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.customer-stories-donotuse-container13 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 3rem;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  justify-content: center;
+}
+.customer-stories-donotuse-heading {
+  fill: var(--dl-color-text-bluepro);
+  color: var(--dl-color-text-bluepro);
+  width: 100%;
+  font-size: 3.5rem;
+  font-family: "Arial";
+  line-height: 1.45;
+}
+.customer-stories-donotuse-text10 {
+  fill: var(--dl-color-text-secondary);
+  color: var(--dl-color-text-secondary);
+  width: 100%;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-family: "Arial";
+  font-weight: 500;
+  line-height: 1.45;
+  padding-bottom: var(--dl-space-space-twounits);
+  text-transform: none;
+  text-decoration: none;
+}
+.customer-stories-donotuse-cards {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: grid;
+  max-width: 1140px;
+  align-self: center;
+  min-height: 500px;
+}
+.customer-stories-donotuse-container14 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.customer-stories-donotuse-container15 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.customer-stories-donotuse-link10 {
+  display: contents;
+}
+.customer-stories-donotuse-large-card1 {
+  width: 500px;
+  display: flex;
+  padding: 28px;
+  min-width: 550px;
+  align-self: center;
+  min-height: 620px;
+  transition: 0.3s;
+  flex-shrink: 0;
+  padding-top: 28px;
+  padding-left: 28px;
+  border-radius: 8px;
+  padding-right: 28px;
+  flex-direction: column;
+  padding-bottom: 28px;
+  justify-content: space-between;
+  text-decoration: none;
+  background-image: linear-gradient(225deg, rgb(24, 162, 255) 1.00%,rgb(0, 32, 111) 100.00%);
+}
+.customer-stories-donotuse-large-card1:hover {
+  gap: 0;
+  min-width: 550px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 620px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.01) 0.00%,rgba(255, 255, 255, 0.05) 100.00%),linear-gradient(225deg, rgb(24, 162, 255) 1.00%,rgb(0, 32, 111) 100.00%);
+}
+.customer-stories-donotuse-logo-top1 {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-image1 {
+  width: 100%;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.customer-stories-donotuse-container16 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.customer-stories-donotuse-text-bottom1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-text11 {
+  fill: var(--dl-color-text-white);
+  color: var(--dl-color-text-white);
+  font-size: 1.5rem;
+  font-family: "Arial";
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: 0%;
+  padding-bottom: 1rem;
+  text-transform: none;
+  text-decoration: none;
+}
+.customer-stories-donotuse-container17 {
+  gap: 8PX;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.customer-stories-donotuse-text12 {
+  fill: var(--dl-color-text-text-linkorange);
+  color: var(--dl-color-default-orange1);
+  font-size: 1.25rem;
+  font-family: "Arial";
+  font-weight: 700;
+  line-height: 1.45;
+  margin-right: 0PX;
+  letter-spacing: 0em;
+}
+.customer-stories-donotuse-container18 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.customer-stories-donotuse-container19 {
+  display: flex;
+  transition: 0.3s;
+  flex-direction: row;
+}
+
+.customer-stories-donotuse-link11 {
+  display: contents;
+}
+.customer-stories-donotuse-large-card2 {
+  width: 500px;
+  display: flex;
+  padding: 28px;
+  min-width: 550px;
+  align-self: center;
+  min-height: 290px;
+  transition: 0.3s;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 28px;
+  padding-left: 28px;
+  border-radius: 8px;
+  padding-right: 28px;
+  flex-direction: column;
+  padding-bottom: 28px;
+  justify-content: space-between;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(54, 49, 62) 2.00%,rgb(77, 11, 136) 100.00%);
+}
+.customer-stories-donotuse-large-card2:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.01) 0.00%,rgba(255, 255, 255, 0.05) 100.00%),linear-gradient(45deg, rgb(54, 49, 62) 2.00%,rgb(77, 11, 136) 100.00%);
+}
+.customer-stories-donotuse-logo-top2 {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-image2 {
+  width: 100%;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.customer-stories-donotuse-container20 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.customer-stories-donotuse-container21 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.customer-stories-donotuse-text-bottom2 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-text13 {
+  fill: var(--dl-color-text-white);
+  color: var(--dl-color-text-white);
+  font-size: 1.5rem;
+  font-family: "Arial";
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: 0%;
+  padding-bottom: 1rem;
+  text-transform: none;
+  text-decoration: none;
+}
+.customer-stories-donotuse-container22 {
+  gap: 8PX;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.customer-stories-donotuse-text14 {
+  fill: var(--dl-color-text-text-linkorange);
+  color: var(--dl-color-default-orange1);
+  font-size: 1.25rem;
+  font-family: "Arial";
+  font-weight: 700;
+  line-height: 1.45;
+  margin-right: 0PX;
+  letter-spacing: 0em;
+}
+.customer-stories-donotuse-container23 {
+  display: flex;
+  transition: 0.3s;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.customer-stories-donotuse-link12 {
+  display: contents;
+}
+.customer-stories-donotuse-large-card3 {
+  width: 500px;
+  display: flex;
+  padding: 28px;
+  min-width: 550px;
+  align-self: center;
+  min-height: 290px;
+  transition: 0.3s;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 28px;
+  padding-left: 28px;
+  border-radius: 8px;
+  padding-right: 28px;
+  flex-direction: column;
+  padding-bottom: 28px;
+  justify-content: space-between;
+  text-decoration: none;
+  background-image: linear-gradient(225deg, rgb(227, 84, 86) 1.00%,rgb(28, 26, 24) 99.00%);
+}
+.customer-stories-donotuse-large-card3:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1.00%,rgba(255, 255, 255, 0.05) 98.00%),linear-gradient(225deg, rgb(227, 84, 86) 1.00%,rgb(28, 26, 24) 99.00%);
+}
+.customer-stories-donotuse-logo-top3 {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-image3 {
+  width: 100%;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.customer-stories-donotuse-container24 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.customer-stories-donotuse-container25 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.customer-stories-donotuse-text-bottom3 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-text15 {
+  fill: var(--dl-color-text-white);
+  color: var(--dl-color-text-white);
+  font-size: 1.5rem;
+  font-family: "Arial";
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: 0%;
+  padding-bottom: 1rem;
+  text-transform: none;
+  text-decoration: none;
+}
+.customer-stories-donotuse-container26 {
+  gap: 8PX;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.customer-stories-donotuse-text16 {
+  fill: var(--dl-color-text-text-linkorange);
+  color: var(--dl-color-default-orange1);
+  font-size: 1.25rem;
+  font-family: "Arial";
+  font-weight: 700;
+  line-height: 1.45;
+  margin-right: 0PX;
+  letter-spacing: 0em;
+}
+.customer-stories-donotuse-container27 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.customer-stories-donotuse-container28 {
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.customer-stories-donotuse-link13 {
+  display: contents;
+}
+.customer-stories-donotuse-large-card4 {
+  width: 100%;
+  display: flex;
+  padding: 28px;
+  align-self: center;
+  min-height: 290px;
+  transition: 0.3s;
+  flex-shrink: 0;
+  padding-top: 28px;
+  padding-left: 28px;
+  border-radius: 8px;
+  padding-right: 28px;
+  flex-direction: column;
+  padding-bottom: 28px;
+  justify-content: space-between;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(37, 42, 45) 1.00%,rgb(0, 193, 143) 100.00%);
+}
+.customer-stories-donotuse-large-card4:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1.00%,rgba(255, 255, 255, 0.05) 100.00%),linear-gradient(45deg, rgb(37, 42, 45) 1.00%,rgb(0, 193, 143) 100.00%);
+}
+.customer-stories-donotuse-logo-top4 {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-image4 {
+  width: 100%;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.customer-stories-donotuse-container29 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.customer-stories-donotuse-text-bottom4 {
+  width: 80%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-text17 {
+  fill: var(--dl-color-text-white);
+  color: var(--dl-color-text-white);
+  font-size: 1.5rem;
+  font-family: "Arial";
+  font-weight: 700;
+  line-height: 1.45;
+  letter-spacing: 0%;
+  padding-bottom: 1rem;
+  text-transform: none;
+  text-decoration: none;
+}
+.customer-stories-donotuse-container30 {
+  gap: 8PX;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.customer-stories-donotuse-text18 {
+  fill: var(--dl-color-text-text-linkorange);
+  color: var(--dl-color-default-orange1);
+  font-size: 1.25rem;
+  font-family: "Arial";
+  font-weight: 700;
+  line-height: 1.45;
+  margin-right: 0PX;
+  letter-spacing: 0em;
+}
+.customer-stories-donotuse-footer1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+}
+.customer-stories-donotuse-container31 {
+  width: 100%;
+  display: flex;
+  max-width: 1140px;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-footer2 {
+  flex: 0 0 auto;
+  width: 1140px;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+}
+.customer-stories-donotuse-container32 {
+  width: 1140px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.customer-stories-donotuse-container33 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.customer-stories-donotuse-section1 {
+  display: flex;
+  align-items: flex-start;
+}
+.customer-stories-donotuse-container34 {
+  flex: 0 0 auto;
+  width: 190px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.customer-stories-donotuse-link14 {
+  display: contents;
+}
+.customer-stories-donotuse-text19 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+}
+.customer-stories-donotuse-link15 {
+  display: contents;
+}
+.customer-stories-donotuse-text20 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link16 {
+  display: contents;
+}
+.customer-stories-donotuse-text21 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-container35 {
+  flex: 0 0 auto;
+  width: 190px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.customer-stories-donotuse-link17 {
+  display: contents;
+}
+.customer-stories-donotuse-text22 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link18 {
+  display: contents;
+}
+.customer-stories-donotuse-text23 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link19 {
+  display: contents;
+}
+.customer-stories-donotuse-text24 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link20 {
+  display: contents;
+}
+.customer-stories-donotuse-text25 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link21 {
+  display: contents;
+}
+.customer-stories-donotuse-text26 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link22 {
+  display: contents;
+}
+.customer-stories-donotuse-text27 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-section2 {
+  display: flex;
+  align-items: flex-start;
+}
+.customer-stories-donotuse-container36 {
+  flex: 0 0 auto;
+  width: 190px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.customer-stories-donotuse-link23 {
+  display: contents;
+}
+.customer-stories-donotuse-text28 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link24 {
+  display: contents;
+}
+.customer-stories-donotuse-text29 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link25 {
+  display: contents;
+}
+.customer-stories-donotuse-text30 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-container37 {
+  flex: 0 0 auto;
+  width: 190px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.customer-stories-donotuse-link26 {
+  display: contents;
+}
+.customer-stories-donotuse-text31 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link27 {
+  display: contents;
+}
+.customer-stories-donotuse-text32 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link28 {
+  display: contents;
+}
+.customer-stories-donotuse-text33 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link29 {
+  display: contents;
+}
+.customer-stories-donotuse-text34 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link30 {
+  display: contents;
+}
+.customer-stories-donotuse-text35 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-section3 {
+  display: flex;
+  align-items: flex-start;
+}
+.customer-stories-donotuse-container38 {
+  flex: 0 0 auto;
+  width: 190px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.customer-stories-donotuse-link31 {
+  display: contents;
+}
+.customer-stories-donotuse-text36 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link32 {
+  display: contents;
+}
+.customer-stories-donotuse-text37 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-link33 {
+  display: contents;
+}
+.customer-stories-donotuse-text38 {
+  fill: var(--dl-color-text-text-bodyprimary);
+  color: var(--dl-color-text-text-bodyprimary);
+  text-decoration: none;
+}
+.customer-stories-donotuse-container39 {
+  flex: 0 0 auto;
+  width: 190px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.customer-stories-donotuse-image5 {
+  width: 181px;
+  height: 38px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.customer-stories-donotuse-component7 {
+  text-decoration: none;
+}
+.customer-stories-donotuse-text39 {
+  fill: var(--dl-color-default-texttertiary);
+  color: var(--dl-color-default-texttertiary);
+  margin-top: 5px;
+}
+@media(max-width: 1536px) {
+  .customer-stories-donotuse-text39 {
+    fill: #999998ff;
+    color: #999998ff;
+  }
+}
+@media(max-width: 1366px) {
+  .customer-stories-donotuse-container11 {
+    background-color: #001350;
+  }
+  .customer-stories-donotuse-container12 {
+    width: 100%;
+    max-width: 1140px;
+  }
+  .customer-stories-donotuse-cards {
+    background-color: #001350;
+  }
+  .customer-stories-donotuse-footer1 {
+    width: 90%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .customer-stories-donotuse-footer2 {
+    width: 90%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .customer-stories-donotuse-container33 {
+    gap: var(--dl-space-space-unit);
+    align-self: center;
+    flex-direction: row;
+  }
+  .customer-stories-donotuse-section1 {
+    align-self: center;
+  }
+  .customer-stories-donotuse-section2 {
+    align-self: center;
+  }
+  .customer-stories-donotuse-section3 {
+    align-self: center;
+  }
+}
+@media(max-width: 1280px) {
+  .customer-stories-donotuse-container12 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .customer-stories-donotuse-container13 {
+    width: 60%;
+    margin-right: 3rem;
+    padding-left: 3rem;
+  }
+  .customer-stories-donotuse-large-card1 {
+    width: 100%;
+  }
+  .customer-stories-donotuse-large-card2 {
+    width: 100%;
+  }
+  .customer-stories-donotuse-large-card3 {
+    width: 100%;
+  }
+  .customer-stories-donotuse-large-card4 {
+    width: 100%;
+  }
+  .customer-stories-donotuse-footer1 {
+    width: 100%;
+  }
+  .customer-stories-donotuse-container31 {
+    width: 90%;
+  }
+  .customer-stories-donotuse-footer2 {
+    width: 90%;
+  }
+  .customer-stories-donotuse-container32 {
+    width: 100%;
+  }
+  .customer-stories-donotuse-container33 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .customer-stories-donotuse-section1 {
+    gap: var(--dl-space-space-unit);
+    align-self: center;
+    flex-direction: row;
+  }
+  .customer-stories-donotuse-section2 {
+    gap: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .customer-stories-donotuse-section3 {
+    gap: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+}
+@media(max-width: 800px) {
+  .customer-stories-donotuse-container11 {
+    max-height: 100%;
+  }
+  .customer-stories-donotuse-container12 {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+  }
+  .customer-stories-donotuse-container13 {
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    justify-content: center;
+  }
+  .customer-stories-donotuse-heading {
+    text-align: center;
+  }
+  .customer-stories-donotuse-text10 {
+    text-align: center;
+  }
+  .customer-stories-donotuse-cards {
+    max-height: 100%;
+  }
+  .customer-stories-donotuse-container33 {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .customer-stories-donotuse-section1 {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .customer-stories-donotuse-section2 {
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .customer-stories-donotuse-section3 {
+    flex-direction: row;
+  }
+}
+@media(max-width: 390px) {
+  .customer-stories-donotuse-container13 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .customer-stories-donotuse-section1 {
+    gap: var(--dl-space-space-twounits);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .customer-stories-donotuse-section2 {
+    gap: var(--dl-space-space-twounits);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .customer-stories-donotuse-section3 {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}

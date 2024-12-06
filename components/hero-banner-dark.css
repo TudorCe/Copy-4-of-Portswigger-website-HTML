@@ -1,0 +1,33 @@
+.hero-banner-dark-container1 {
+  width: 1140px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-banner-dark-container2 {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.hero-banner-dark-container3 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-fourunits);
+  padding-right: 40px;
+  flex-direction: column;
+}
+.hero-banner-dark-tasksubmenu2 {
+  width: 461px;
+  height: 374px;
+}
+
+.hero-banner-darkroot-class-name1 {
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
